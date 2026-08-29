@@ -1,0 +1,63 @@
+about:
+  description: The official NGINX Open Source repository.
+  license: BSD-2-Clause
+  homepage: https://nginx.org/
+  head: 5f54125
+  archived: false
+  latestVersion: release-1.31.4
+  collectedAt: 2026-08-29T07:30:05Z
+timeline:
+  created: 2015-06-23
+  lastCommit: 2026-08-26
+  lastRelease: 2026-08-19
+popularity:
+  star: 31519
+  watcher: 961
+  fork: 8283
+  release: 28
+  contributor: 123
+  pullRequest: 580
+  issue: 610
+language:
+  C: 6702676
+  Vim Script: 114030
+  XS: 26623
+  Perl: 6774
+  Makefile: 4755
+  IL Assembly: 2947
+  Shell: 2314
+  C++: 592
+totalLine: 6860711
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 1
+    mergedPR: 13
+    openPR: 44
+    closedIssue: 3
+    openIssue: 15
+    commit: 22
+  last90d:
+    since: 2026-05-31
+    release: 5
+    mergedPR: 51
+    openPR: 101
+    closedIssue: 38
+    openIssue: 38
+    commit: 79
+  last180d:
+    since: 2026-03-02
+    release: 14
+    mergedPR: 107
+    openPR: 150
+    closedIssue: 66
+    openIssue: 70
+    commit: 164
+  last360d:
+    since: 2025-09-03
+    release: 20
+    mergedPR: 169
+    openPR: 182
+    closedIssue: 150
+    openIssue: 105
+    commit: 248
