@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 862,
       "digest": "sha256:7e65ddb40f743216ca4be0eef20a34e134997a07b7073d180364d96a9e6d68cc",
-      "download_count": 37,
+      "download_count": 38,
       "created_at": "2026-09-02T12:17:29Z",
       "updated_at": "2026-09-02T12:17:30Z",
       "browser_download_url": "https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.tar.gz.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2796419,
       "digest": "sha256:00ad32a2bf66cee0ec8eb194347e8e79917f47017ccd3ad4bebf5574fabe002c",
-      "download_count": 251,
+      "download_count": 255,
       "created_at": "2026-09-02T12:17:32Z",
       "updated_at": "2026-09-02T12:17:36Z",
       "browser_download_url": "https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.zip"
