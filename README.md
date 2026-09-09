@@ -7,7 +7,7 @@ The official NGINX Open Source repository.
 - **Latest release**: `release-1.31.5` (2026-09-02)
 - **Last commit**: 2026-09-07
 - **License**: BSD-2-Clause
-- **Stars**: 31598 · **Forks**: 8313 · **Open issues**: 621 · **Contributors**: 124
+- **Stars**: 31603 · **Forks**: 8307 · **Open issues**: 622 · **Contributors**: 124
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/nginx> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T11:42:37Z._
+_Last regenerated: 2026-09-09T05:26:56Z._
