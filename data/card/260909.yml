@@ -2,28 +2,28 @@ about:
   description: "The official NGINX Open Source repository."
   license: BSD-2-Clause
   homepage: https://nginx.org/
-  head: 5c812c0
+  head: 005f9f5
   archived: false
   latestVersion: "release-1.31.5"
   latestRelease: "release-1.31.5"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:26:43Z
+  collectedAt: 2026-09-09T19:49:23Z
 timeline:
   created: 2015-06-23
-  lastCommit: 2026-09-07
+  lastCommit: 2026-09-09
   lastVersion: 2026-09-02
   lastRelease: 2026-09-02
   lastPrerelease: 
 popularity:
-  star: 31603
-  watcher: 959
-  fork: 8307
+  star: 31606
+  watcher: 958
+  fork: 8301
   release: 29
   contributor: 124
-  pullRequest: 878
-  issue: 622
+  pullRequest: 883
+  issue: 629
 language:
-  C: 6741682
+  C: 6741754
   Vim Script: 114030
   XS: 26623
   Perl: 6774
@@ -31,69 +31,69 @@ language:
   IL Assembly: 2947
   Shell: 2314
   C++: 592
-totalBytes: 6899717
+totalBytes: 6899789
 recent:
   last30d:
     since: 2026-08-10
     release: 2
-    mergedPR: 12
-    openPR: 49
+    mergedPR: 13
+    openPR: 53
     closedIssue: 5
-    openIssue: 23
-    commit: 12
+    openIssue: 30
+    commit: 13
   last60d:
     since: 2026-07-11
     release: 4
-    mergedPR: 36
-    openPR: 84
+    mergedPR: 37
+    openPR: 88
     closedIssue: 13
-    openIssue: 26
-    commit: 45
+    openIssue: 33
+    commit: 46
   last90d:
     since: 2026-06-11
     release: 6
-    mergedPR: 49
-    openPR: 103
+    mergedPR: 50
+    openPR: 107
     closedIssue: 37
-    openIssue: 38
-    commit: 67
+    openIssue: 45
+    commit: 68
   last180d:
     since: 2026-03-13
     release: 14
-    mergedPR: 105
-    openPR: 159
+    mergedPR: 106
+    openPR: 162
     closedIssue: 70
-    openIssue: 78
-    commit: 155
+    openIssue: 85
+    commit: 156
   last360d:
     since: 2025-09-14
     release: 21
-    mergedPR: 172
-    openPR: 193
+    mergedPR: 173
+    openPR: 196
     closedIssue: 146
-    openIssue: 110
-    commit: 253
+    openIssue: 117
+    commit: 254
   last720d:
     since: 2024-09-19
     release: 29
-    mergedPR: 265
-    openPR: 244
+    mergedPR: 266
+    openPR: 247
     closedIssue: 360
-    openIssue: 219
-    commit: 437
+    openIssue: 226
+    commit: 438
 total:
   release: 29
-  mergedPR: 280
-  openPR: 248
+  mergedPR: 281
+  openPR: 251
   closedIssue: 395
-  openIssue: 227
-  commit: 8712
+  openIssue: 234
+  commit: 8713
 ---
 path: /home/runner/.x-repo/github.com/nginx/nginx
-collectedAt: 2026-09-09T05:26:52Z
+collectedAt: 2026-09-09T19:49:39Z
 loc:
   C:
-    code: 173901
+    code: 173904
     comments: 6534
     blanks: 58516
     files: 270
@@ -153,7 +153,7 @@ loc:
     blanks: 170
     files: 5
 total:
-  code: 216820
+  code: 216823
   comments: 8204
   blanks: 66660
   files: 435
