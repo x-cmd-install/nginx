@@ -7,7 +7,7 @@ about:
   latestVersion: "release-1.31.5"
   latestRelease: "release-1.31.5"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T17:24:55Z
+  collectedAt: 2026-09-10T21:32:28Z
 timeline:
   created: 2015-06-23
   lastCommit: 2026-09-10
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-09-02
   lastPrerelease: 
 popularity:
-  star: 31619
-  watcher: 958
-  fork: 8302
+  star: 31620
+  watcher: 957
+  fork: 8303
   release: 29
   contributor: 124
-  pullRequest: 886
+  pullRequest: 888
   issue: 629
 language:
   C: 6741773
@@ -37,7 +37,7 @@ recent:
     since: 2026-08-11
     release: 2
     mergedPR: 11
-    openPR: 53
+    openPR: 55
     closedIssue: 6
     openIssue: 29
     commit: 14
@@ -45,7 +45,7 @@ recent:
     since: 2026-07-12
     release: 4
     mergedPR: 38
-    openPR: 86
+    openPR: 88
     closedIssue: 14
     openIssue: 32
     commit: 47
@@ -53,7 +53,7 @@ recent:
     since: 2026-06-12
     release: 6
     mergedPR: 51
-    openPR: 106
+    openPR: 108
     closedIssue: 37
     openIssue: 43
     commit: 69
@@ -61,7 +61,7 @@ recent:
     since: 2026-03-14
     release: 14
     mergedPR: 107
-    openPR: 161
+    openPR: 162
     closedIssue: 71
     openIssue: 84
     commit: 157
@@ -90,7 +90,7 @@ total:
   commit: 8714
 ---
 path: /home/runner/.x-repo/github.com/nginx/nginx
-collectedAt: 2026-09-10T17:25:06Z
+collectedAt: 2026-09-10T21:32:39Z
 loc:
   C:
     code: 173904
