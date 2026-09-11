@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 282 · **Open PRs**: 250 · **Closed issues**: 396 · **Open issues**: 233 · **Commits**: 8714
+- **Releases**: 29 · **Merged PRs**: 282 · **Open PRs**: 251 · **Closed issues**: 398 · **Open issues**: 231 · **Commits**: 8714
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 11 | 55 | 6 | 29 | 14 |
-| last60d | 2026-07-12 | 4 | 38 | 88 | 14 | 32 | 47 |
-| 90d | 2026-06-12 | 6 | 51 | 108 | 37 | 43 | 69 |
-| last180d | 2026-03-14 | 14 | 107 | 162 | 71 | 84 | 157 |
-| 360d | 2025-09-15 | 21 | 173 | 195 | 143 | 115 | 255 |
-| last720d | 2024-09-20 | 29 | 267 | 246 | 360 | 225 | 439 |
+| 30d | 2026-08-12 | 2 | 9 | 55 | 6 | 29 | 14 |
+| last60d | 2026-07-13 | 4 | 38 | 89 | 14 | 32 | 47 |
+| 90d | 2026-06-13 | 6 | 51 | 109 | 36 | 43 | 69 |
+| last180d | 2026-03-15 | 14 | 106 | 162 | 71 | 84 | 157 |
+| 360d | 2025-09-16 | 21 | 172 | 196 | 143 | 114 | 255 |
+| last720d | 2024-09-21 | 29 | 267 | 247 | 361 | 224 | 437 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:22:39Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:26:00Z._
