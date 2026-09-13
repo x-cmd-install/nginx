@@ -1,15 +1,15 @@
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.11.10
-  origversion: 1.11.10-1
+  version: 1.17.2
+  origversion: 1.17.2-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.11.0
-  origversion: 1.11.0-1
+  version: 1.2.7
+  origversion: 1.2.7-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -22,8 +22,8 @@
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.3.16
-  origversion: 1.3.16-1
+  version: 1.4.2
+  origversion: 1.4.2-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -36,15 +36,8 @@
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.4.1
-  origversion: 1.4.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.4.6
-  origversion: 1.4.6-1
+  version: 1.5.0
+  origversion: 1.5.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -57,8 +50,8 @@
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.5.1
-  origversion: 1.5.1-1
+  version: 1.5.12
+  origversion: 1.5.12-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -71,8 +64,8 @@
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.5.7
-  origversion: 1.5.7-1
+  version: 1.5.6
+  origversion: 1.5.6-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -85,206 +78,15 @@
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.6.3
-  origversion: 1.6.3-1
+  version: 1.6.1
+  origversion: 1.6.1-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.7.0
-  origversion: 1.7.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.10
-  origversion: 1.7.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.11
-  origversion: 1.7.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.12
-  origversion: 1.7.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.4
-  origversion: 1.7.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.6
-  origversion: 1.7.6-1
-  status: legacy
-  vulnerable: true
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx
-  visiblename: nginx
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-src
-  visiblename: nginx-src
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Source code of nginx 1.30.4, useful for building modules
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-stream
-  visiblename: nginx-mod-stream
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to proxy TCP and UDP data streams
-  licenses:
-    - BSD-2-Clause
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.11
-  origversion: 1.11.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.1
-  origversion: 1.11.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.12
-  origversion: 1.11.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.13
-  origversion: 1.11.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.2
-  origversion: 1.11.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.4
-  origversion: 1.13.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.5
-  origversion: 1.13.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.14.0
-  origversion: 1.14.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.1
-  origversion: 1.15.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.3
-  origversion: 1.15.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.17.2
-  origversion: 1.17.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.2.4
-  origversion: 1.2.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.7
-  origversion: 1.15.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.0
-  origversion: 1.13.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.10
-  origversion: 1.13.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.8
-  origversion: 1.15.8-1
+  version: 1.15.5
+  origversion: 1.15.5-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -297,218 +99,8 @@
 - repo: aix_osp
   srcname: nginx
   visiblename: nginx
-  version: 1.16.0
-  origversion: 1.16.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
   version: 1.16.1
   origversion: 1.16.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.17.0
-  origversion: 1.17.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.17.1
-  origversion: 1.17.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.17.3
-  origversion: 1.17.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.11
-  origversion: 1.13.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.6
-  origversion: 1.15.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.1
-  origversion: 1.13.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.6
-  origversion: 1.11.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.7
-  origversion: 1.11.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.12
-  origversion: 1.13.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.2
-  origversion: 1.13.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.8
-  origversion: 1.11.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.9
-  origversion: 1.11.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.12.0
-  origversion: 1.12.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.12.1
-  origversion: 1.12.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.12.2
-  origversion: 1.12.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.3
-  origversion: 1.13.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.6
-  origversion: 1.13.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.7
-  origversion: 1.13.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.8
-  origversion: 1.13.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.13.9
-  origversion: 1.13.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.14.1
-  origversion: 1.14.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.14.2
-  origversion: 1.14.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.10
-  origversion: 1.15.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.11
-  origversion: 1.15.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.12
-  origversion: 1.15.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.2
-  origversion: 1.15.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.4
-  origversion: 1.15.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.15.5
-  origversion: 1.15.5-1
   status: legacy
   vulnerable: true
 - repo: manjaro_testing
@@ -522,6 +114,126 @@
   summary: Lightweight HTTP server and IMAP/POP3 proxy server
   licenses:
     - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-geoip
+  visiblename: nginx-mod-geoip
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: GeoIP module for nginx
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx
+  visiblename: nginx
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server
+  licenses:
+    - BSD-2-Clause
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.0
+  origversion: 1.7.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.4
+  origversion: 1.7.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.7
+  origversion: 1.7.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.8
+  origversion: 1.7.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.9
+  origversion: 1.7.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.8.0
+  origversion: 1.8.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.0
+  origversion: 1.9.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.11
+  origversion: 1.9.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.1
+  origversion: 1.9.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.12
+  origversion: 1.9.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.4
+  origversion: 1.9.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.5
+  origversion: 1.9.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.9
+  origversion: 1.9.9-1
+  status: legacy
+  vulnerable: true
 - repo: aixtoolbox
   srcname: nginx
   visiblename: nginx
@@ -544,119 +256,61 @@
     - BSD
   categories:
     - System Environment/Daemons
-- repo: archpower_powerpc64le
-  srcname: nginx
-  binname: nginx-mod-image-filter
-  visiblename: nginx-mod-image-filter
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-mail
+  visiblename: nginx-mainline-mod-mail
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
   licenses:
     - BSD-2-Clause
-- repo: archpower_powerpc64le
-  srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-mail
+  visiblename: nginx-mainline-mod-mail
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
   licenses:
     - BSD-2-Clause
-- repo: archpower_powerpc64le
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline
+  visiblename: nginx-mainline
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
+  licenses:
+    - BSD-2-Clause
+- repo: aix_osp
   srcname: nginx
-  binname: nginx
   visiblename: nginx
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server
-  licenses:
-    - BSD-2-Clause
-- repo: archpower_powerpc64le
+  version: 1.15.1
+  origversion: 1.15.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
   srcname: nginx
-  binname: nginx-src
-  visiblename: nginx-src
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Source code of nginx 1.30.4, useful for building modules
-  licenses:
-    - BSD-2-Clause
-- repo: archpower_powerpc64le
-  srcname: nginx
-  binname: nginx-mod-xslt
-  visiblename: nginx-mod-xslt
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Module for nginx to transform XML responses with XSLT stylesheets
-  licenses:
-    - BSD-2-Clause
-- repo: archpower_powerpc64le
-  srcname: nginx
-  binname: nginx-mod-perl
-  visiblename: nginx-mod-perl
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Module for nginx to implement location and variable handlers in Perl
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
+  visiblename: nginx
+  version: 1.15.2
+  origversion: 1.15.2-1
+  status: legacy
+  vulnerable: true
+- repo: archpower_powerpc
   srcname: nginx
   binname: nginx-mod-image-filter
   visiblename: nginx-mod-image-filter
   version: 1.30.4
   origversion: 1.30.4-1
-  status: legacy
+  status: outdated
   summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-xslt
-  visiblename: nginx-mod-xslt
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to transform XML responses with XSLT stylesheets
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-perl
-  visiblename: nginx-mod-perl
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to implement location and variable handlers in Perl
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-geoip
-  visiblename: nginx-mod-geoip
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: GeoIP module for nginx
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-perl
-  visiblename: nginx-mod-perl
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to implement location and variable handlers in Perl
   licenses:
     - BSD-2-Clause
 - repo: almalinux_9
@@ -767,46 +421,38 @@
     - BSD-2-Clause
   categories:
     - Unspecified
-- repo: cygwin
-  srcname: nginx
-  binname: nginx-mod_http_xslt_filter
-  visiblename: nginx-mod_http_xslt_filter
-  version: 1.28.2
-  origversion: 1.28.2-1
-  status: outdated
-  summary: Web and mail proxy server
-  maintainers:
-    - chaoyang.xu@cygwin
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-image-filter
+  visiblename: nginx-mainline-mod-image-filter
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
   licenses:
     - BSD-2-Clause
-  categories:
-    - Web
-- repo: artix
-  subrepo: world
+- repo: archpower_powerpc
   srcname: nginx
-  binname: nginx-mod-geoip
-  visiblename: nginx-mod-geoip
+  binname: nginx
+  visiblename: nginx
   version: 1.30.4
   origversion: 1.30.4-1
   status: outdated
-  summary: GeoIP module for nginx
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server
   licenses:
     - BSD-2-Clause
-- repo: cygwin
+- repo: archpower_powerpc64le
   srcname: nginx
-  binname: nginx-mod_mail
-  visiblename: nginx-mod_mail
-  version: 1.28.2
-  origversion: 1.28.2-1
+  binname: nginx-mod-stream
+  visiblename: nginx-mod-stream
+  version: 1.30.4
+  origversion: 1.30.4-1
   status: outdated
-  summary: Web and mail proxy server
-  maintainers:
-    - chaoyang.xu@cygwin
+  summary: Module for nginx to proxy TCP and UDP data streams
   licenses:
     - BSD-2-Clause
-  categories:
-    - Web
-- repo: manjaro_testing
+- repo: arch
   subrepo: extra
   srcname: nginx
   binname: nginx-mod-xslt
@@ -817,40 +463,66 @@
   summary: Module for nginx to transform XML responses with XSLT stylesheets
   licenses:
     - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
+- repo: archpower_powerpc64le
   srcname: nginx
-  binname: nginx-mod-stream
-  visiblename: nginx-mod-stream
+  binname: nginx-mod-geoip
+  visiblename: nginx-mod-geoip
   version: 1.30.4
   origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to proxy TCP and UDP data streams
+  status: outdated
+  summary: GeoIP module for nginx
   licenses:
     - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
+- repo: archpower_powerpc64le
+  srcname: nginx
+  binname: nginx-mod-image-filter
+  visiblename: nginx-mod-image-filter
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
+- repo: archpower_powerpc64le
+  srcname: nginx
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+  licenses:
+    - BSD-2-Clause
+- repo: archpower_powerpc64le
+  srcname: nginx
+  binname: nginx
+  visiblename: nginx
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server
+  licenses:
+    - BSD-2-Clause
+- repo: archpower_powerpc64le
   srcname: nginx
   binname: nginx-src
   visiblename: nginx-src
   version: 1.30.4
   origversion: 1.30.4-1
-  status: legacy
+  status: outdated
   summary: Source code of nginx 1.30.4, useful for building modules
   licenses:
     - BSD-2-Clause
-- repo: aur
-  srcname: nginx-quic-libressl
-  binname: nginx-quic-libressl
-  visiblename: nginx-quic-libressl
-  version: 1.28.0
-  origversion: 1.28.0-1
+- repo: archpower_powerpc64le
+  srcname: nginx
+  binname: nginx-mod-xslt
+  visiblename: nginx-mod-xslt
+  version: 1.30.4
+  origversion: 1.30.4-1
   status: outdated
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server
-  maintainers:
-    - fallback-mnt-aur@repology
+  summary: Module for nginx to transform XML responses with XSLT stylesheets
   licenses:
-    - BSD-2-Clause-Views AND OpenSSL
+    - BSD-2-Clause
 - repo: alpine_3_20
   subrepo: main
   srcname: nginx
@@ -886,6 +558,19 @@
   origversion: 1.26.3-r0
   status: outdated
   summary: HTTP and reverse proxy server (stable version) (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_edge
+  subrepo: main
+  srcname: nginx
+  binname: nginx-mod-dev
+  visiblename: nginx-mod-dev
+  version: 1.30.4
+  origversion: 1.30.4-r3
+  status: outdated
+  summary: NGINX module development files
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -942,20 +627,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: cygwin
-  srcname: nginx
-  binname: nginx-mod_stream
-  visiblename: nginx-mod_stream
-  version: 1.28.2
-  origversion: 1.28.2-1
-  status: outdated
-  summary: Web and mail proxy server
-  maintainers:
-    - chaoyang.xu@cygwin
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Web
 - repo: alpine_3_20
   subrepo: main
   srcname: nginx
@@ -1151,6 +822,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-stream
+  visiblename: nginx-mod-stream
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_20
   subrepo: main
   srcname: nginx
@@ -1162,6 +844,16 @@
   summary: Nginx third-party module http-lua-upstream (version v0.07)
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: archpower_powerpc64le
+  srcname: nginx
+  binname: nginx-mod-perl
+  visiblename: nginx-mod-perl
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Module for nginx to implement location and variable handlers in Perl
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_20
@@ -1424,6 +1116,16 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: crux_37
+  subrepo: contrib
+  srcname: nginx
+  visiblename: nginx
+  version: 1.27.5
+  origversion: null
+  status: outdated
+  summary: An HTTP and reverse proxy server (mainline version)
+  maintainers:
+    - jaeger@crux.ninja
 - repo: alpine_3_20
   subrepo: main
   srcname: nginx
@@ -1476,18 +1178,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: aur
-  srcname: nginx-quic-libressl
-  binname: nginx-quic-libressl-src
-  visiblename: nginx-quic-libressl-src
-  version: 1.28.0
-  origversion: 1.28.0-1
-  status: outdated
-  summary: Source code of nginx-quic 1.28.0, useful for building modules
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - BSD-2-Clause-Views AND OpenSSL
 - repo: alpine_3_20
   subrepo: main
   srcname: nginx
@@ -1562,6 +1252,19 @@
   origversion: 1.26.3-r3
   status: outdated
   summary: Nginx third-party module devel-kit (version v0.3.5)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_edge
+  subrepo: main
+  srcname: nginx
+  binname: nginx-mod-stream-js
+  visiblename: nginx-mod-stream-js
+  version: 1.30.4
+  origversion: 1.30.4-r3
+  status: outdated
+  summary: Nginx module stream-js
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -2021,17 +1724,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_3_21
   subrepo: main
   srcname: nginx
@@ -2097,6 +1789,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-stream
+  visiblename: nginx-mainline-mod-stream
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_21
   subrepo: main
   srcname: nginx
@@ -2147,17 +1850,6 @@
   summary: Nginx module stream-js
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: artix
-  subrepo: world
-  srcname: nginx
-  binname: nginx
-  visiblename: nginx
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_21
@@ -2238,6 +1930,19 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: alpine_3_23
+  subrepo: main
+  srcname: nginx
+  binname: nginx-doc
+  visiblename: nginx-doc
+  version: 1.28.3
+  origversion: 1.28.3-r7
+  status: outdated
+  summary: HTTP and reverse proxy server (stable version) (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_22
   subrepo: main
   srcname: nginx
@@ -2288,17 +1993,6 @@
   summary: Nginx third-party module http-accounting (version v2.0)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-image-filter
-  visiblename: nginx-mod-image-filter
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_22
@@ -2509,6 +2203,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-src
+  visiblename: nginx-mainline-src
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Source code of nginx-mainline 1.31.5, useful for building modules
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_22
   subrepo: main
   srcname: nginx
@@ -2717,6 +2422,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-geoip
+  visiblename: nginx-mod-geoip
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: GeoIP module for nginx
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_22
   subrepo: main
   srcname: nginx
@@ -2769,6 +2485,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-geoip
+  visiblename: nginx-mainline-mod-geoip
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: GeoIP module for nginx-mainline
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_22
   subrepo: main
   srcname: nginx
@@ -2819,17 +2546,6 @@
   summary: Nginx third-party module stream-geoip2 (version 3.4)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: artix
-  subrepo: world
-  srcname: nginx
-  binname: nginx-mod-perl
-  visiblename: nginx-mod-perl
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Module for nginx to implement location and variable handlers in Perl
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_22
@@ -2910,15 +2626,15 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: alpine_3_23
+- repo: alpine_3_24
   subrepo: main
   srcname: nginx
-  binname: nginx-doc
-  visiblename: nginx-doc
-  version: 1.28.3
-  origversion: 1.28.3-r7
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-r1
   status: outdated
-  summary: HTTP and reverse proxy server (stable version) (documentation)
+  summary: Nginx module mail
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -2962,19 +2678,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: alpine_edge
-  subrepo: main
-  srcname: nginx
-  binname: nginx-mod-stream-js
-  visiblename: nginx-mod-stream-js
-  version: 1.30.4
-  origversion: 1.30.4-r3
-  status: outdated
-  summary: Nginx module stream-js
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_3_23
   subrepo: main
   srcname: nginx
@@ -2999,6 +2702,17 @@
   summary: Nginx third-party module http-accounting (version v2.0)
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-src
+  visiblename: nginx-src
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Source code of nginx 1.30.4, useful for building modules
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_23
@@ -3088,19 +2802,6 @@
   origversion: 1.28.3-r7
   status: outdated
   summary: Nginx third-party module http-echo (version v0.63)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_24
-  subrepo: main
-  srcname: nginx
-  binname: nginx-mod-dev
-  visiblename: nginx-mod-dev
-  version: 1.30.4
-  origversion: 1.30.4-r1
-  status: outdated
-  summary: NGINX module development files
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -3209,6 +2910,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline
+  visiblename: nginx-mainline
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_23
   subrepo: main
   srcname: nginx
@@ -3248,17 +2960,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-mail
-  visiblename: nginx-mainline-mod-mail
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_3_23
   subrepo: main
   srcname: nginx
@@ -3270,6 +2971,17 @@
   summary: Nginx third-party module http-naxsi (version 1.7)
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-perl
+  visiblename: nginx-mod-perl
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to implement location and variable handlers in Perl
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_23
@@ -3359,19 +3071,6 @@
   origversion: 1.28.3-r7
   status: outdated
   summary: Nginx third-party module http-untar (version v1.1)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_24
-  subrepo: main
-  srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.30.4
-  origversion: 1.30.4-r1
-  status: outdated
-  summary: Nginx module mail
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -3493,6 +3192,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-perl
+  visiblename: nginx-mainline-mod-perl
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_23
   subrepo: main
   srcname: nginx
@@ -3530,17 +3240,6 @@
   summary: Nginx module stream-geoip
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: artix
-  subrepo: world
-  srcname: nginx
-  binname: nginx-mod-xslt
-  visiblename: nginx-mod-xslt
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Module for nginx to transform XML responses with XSLT stylesheets
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_23
@@ -3634,6 +3333,19 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: alpine_edge
+  subrepo: main
+  srcname: nginx
+  binname: nginx-doc
+  visiblename: nginx-doc
+  version: 1.30.4
+  origversion: 1.30.4-r3
+  status: outdated
+  summary: HTTP and reverse proxy server (stable version) (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_24
   subrepo: main
   srcname: nginx
@@ -3650,6 +3362,19 @@
 - repo: alpine_3_24
   subrepo: main
   srcname: nginx
+  binname: nginx-mod-dev
+  visiblename: nginx-mod-dev
+  version: 1.30.4
+  origversion: 1.30.4-r1
+  status: outdated
+  summary: NGINX module development files
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_24
+  subrepo: main
+  srcname: nginx
   binname: nginx-mod-devel-kit
   visiblename: nginx-mod-devel-kit
   version: 1.30.4
@@ -3658,17 +3383,6 @@
   summary: Nginx third-party module devel-kit (version v0.3.5)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-geoip
-  visiblename: nginx-mainline-mod-geoip
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: GeoIP module for nginx-mainline
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_24
@@ -3801,6 +3515,17 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-xslt
+  visiblename: nginx-mainline-mod-xslt
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_24
   subrepo: main
   srcname: nginx
@@ -3929,17 +3654,6 @@
   summary: Nginx third-party module http-lua (version v0.10.29)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-geoip
-  visiblename: nginx-mainline-mod-geoip
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: GeoIP module for nginx-mainline
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_24
@@ -4187,17 +3901,6 @@
   summary: Nginx module stream
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-perl
-  visiblename: nginx-mainline-mod-perl
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline to implement location and variable handlers in Perl
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_24
@@ -4320,32 +4023,6 @@
 - repo: alpine_edge
   subrepo: main
   srcname: nginx
-  binname: nginx-doc
-  visiblename: nginx-doc
-  version: 1.30.4
-  origversion: 1.30.4-r3
-  status: outdated
-  summary: HTTP and reverse proxy server (stable version) (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_edge
-  subrepo: main
-  srcname: nginx
-  binname: nginx-mod-dev
-  visiblename: nginx-mod-dev
-  version: 1.30.4
-  origversion: 1.30.4-r3
-  status: outdated
-  summary: NGINX module development files
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_edge
-  subrepo: main
-  srcname: nginx
   binname: nginx-mod-devel-kit
   visiblename: nginx-mod-devel-kit
   version: 1.30.4
@@ -4475,13 +4152,13 @@
     - BSD-2-Clause
 - repo: arch
   subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline
-  visiblename: nginx-mainline
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
+  srcname: nginx
+  binname: nginx-mod-image-filter
+  visiblename: nginx-mod-image-filter
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
   licenses:
     - BSD-2-Clause
 - repo: alpine_edge
@@ -4638,6 +4315,16 @@
   summary: Nginx third-party module http-lua-upstream (version v0.08)
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: archpower_powerpc
+  srcname: nginx
+  binname: nginx-mod-stream
+  visiblename: nginx-mod-stream
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Module for nginx to proxy TCP and UDP data streams
   licenses:
     - BSD-2-Clause
 - repo: alpine_edge
@@ -4913,16 +4600,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: archpower_powerpc64le
-  srcname: nginx
-  binname: nginx-mod-geoip
-  visiblename: nginx-mod-geoip
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: GeoIP module for nginx
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_edge
   subrepo: main
   srcname: nginx
@@ -4960,17 +4637,6 @@
   summary: HTTP and reverse proxy server (stable version) (vim syntax)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: artix
-  subrepo: world
-  srcname: nginx
-  binname: nginx-mod-image-filter
-  visiblename: nginx-mod-image-filter
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
   licenses:
     - BSD-2-Clause
 - repo: alt_p11
@@ -5063,13 +4729,23 @@
     - net
 - repo: arch
   subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-mail
-  visiblename: nginx-mainline-mod-mail
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
+  srcname: nginx
+  binname: nginx-mod-stream
+  visiblename: nginx-mod-stream
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
+- repo: archpower_powerpc
+  srcname: nginx
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
   licenses:
     - BSD-2-Clause
 - repo: apertis_v2026
@@ -5126,13 +4802,101 @@
     - janmojzis@debian.org
 - repo: arch
   subrepo: extra
+  srcname: nginx
+  binname: nginx-src
+  visiblename: nginx-src
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Source code of nginx 1.30.4, useful for building modules
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
+  srcname: nginx
+  binname: nginx
+  visiblename: nginx
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-geoip
+  visiblename: nginx-mod-geoip
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: GeoIP module for nginx
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-perl
+  visiblename: nginx-mod-perl
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
   srcname: nginx-mainline
-  binname: nginx-mainline-mod-image-filter
-  visiblename: nginx-mainline-mod-image-filter
+  binname: nginx-mainline-mod-mail
+  visiblename: nginx-mainline-mod-mail
   version: 1.31.5
   origversion: 1.31.5-2
   status: newest
-  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
+  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline
+  visiblename: nginx-mainline
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-stream
+  visiblename: nginx-mainline-mod-stream
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
+- repo: arch
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-geoip
+  visiblename: nginx-mainline-mod-geoip
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: GeoIP module for nginx-mainline
   licenses:
     - BSD-2-Clause
 - repo: arch
@@ -5171,100 +4935,12 @@
 - repo: arch
   subrepo: extra
   srcname: nginx-mainline
-  binname: nginx-mainline-mod-stream
-  visiblename: nginx-mainline-mod-stream
+  binname: nginx-mainline-mod-image-filter
+  visiblename: nginx-mainline-mod-image-filter
   version: 1.31.5
   origversion: 1.31.5-2
   status: newest
-  summary: Module for nginx-mainline to proxy TCP and UDP data streams
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx
-  visiblename: nginx
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-xslt
-  visiblename: nginx-mod-xslt
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to transform XML responses with XSLT stylesheets
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-perl
-  visiblename: nginx-mod-perl
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to implement location and variable handlers in Perl
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-geoip
-  visiblename: nginx-mod-geoip
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: GeoIP module for nginx
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-src
-  visiblename: nginx-src
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Source code of nginx 1.30.4, useful for building modules
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-image-filter
-  visiblename: nginx-mod-image-filter
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-stream
-  visiblename: nginx-mod-stream
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to proxy TCP and UDP data streams
+  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
   licenses:
     - BSD-2-Clause
 - repo: archpower_powerpc
@@ -5307,37 +4983,32 @@
   summary: GeoIP module for nginx
   licenses:
     - BSD-2-Clause
-- repo: archpower_powerpc
-  srcname: nginx
-  binname: nginx-mod-stream
-  visiblename: nginx-mod-stream
-  version: 1.30.4
-  origversion: 1.30.4-1
+- repo: aur
+  srcname: nginx-quic-libressl
+  binname: nginx-quic-libressl
+  visiblename: nginx-quic-libressl
+  version: 1.28.0
+  origversion: 1.28.0-1
   status: outdated
-  summary: Module for nginx to proxy TCP and UDP data streams
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server
+  maintainers:
+    - fallback-mnt-aur@repology
   licenses:
-    - BSD-2-Clause
-- repo: archpower_powerpc
-  srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.30.4
-  origversion: 1.30.4-1
+    - BSD-2-Clause-Views AND OpenSSL
+- repo: aur
+  srcname: nginx-quic-libressl
+  binname: nginx-quic-libressl-src
+  visiblename: nginx-quic-libressl-src
+  version: 1.28.0
+  origversion: 1.28.0-1
   status: outdated
-  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+  summary: Source code of nginx-quic 1.28.0, useful for building modules
+  maintainers:
+    - fallback-mnt-aur@repology
   licenses:
-    - BSD-2-Clause
-- repo: archpower_powerpc
-  srcname: nginx
-  binname: nginx-mod-image-filter
-  visiblename: nginx-mod-image-filter
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: outdated
-  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: archpower_powerpc
+    - BSD-2-Clause-Views AND OpenSSL
+- repo: artix
+  subrepo: world
   srcname: nginx
   binname: nginx
   visiblename: nginx
@@ -5347,14 +5018,48 @@
   summary: Lightweight HTTP server and IMAP/POP3 proxy server
   licenses:
     - BSD-2-Clause
-- repo: archpower_powerpc64le
+- repo: artix
+  subrepo: world
   srcname: nginx
-  binname: nginx-mod-stream
-  visiblename: nginx-mod-stream
+  binname: nginx-mod-perl
+  visiblename: nginx-mod-perl
   version: 1.30.4
   origversion: 1.30.4-1
   status: outdated
-  summary: Module for nginx to proxy TCP and UDP data streams
+  summary: Module for nginx to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
+- repo: artix
+  subrepo: world
+  srcname: nginx
+  binname: nginx-mod-xslt
+  visiblename: nginx-mod-xslt
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Module for nginx to transform XML responses with XSLT stylesheets
+  licenses:
+    - BSD-2-Clause
+- repo: artix
+  subrepo: world
+  srcname: nginx
+  binname: nginx-mod-image-filter
+  visiblename: nginx-mod-image-filter
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
+- repo: artix
+  subrepo: world
+  srcname: nginx
+  binname: nginx-mod-geoip
+  visiblename: nginx-mod-geoip
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: outdated
+  summary: GeoIP module for nginx
   licenses:
     - BSD-2-Clause
 - repo: artix
@@ -5390,28 +5095,16 @@
   summary: Module for nginx to proxy TCP and UDP data streams
   licenses:
     - BSD-2-Clause
-- repo: chimera
-  subrepo: main
+- repo: crux_38
+  subrepo: contrib
   srcname: nginx
-  binname: nginx-man
-  visiblename: nginx-man
-  version: 1.30.4
-  origversion: 1.30.4-r0
-  status: outdated
-  summary: Advanced load balancer, web server, and reverse proxy (manual pages)
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-src
-  visiblename: nginx-mainline-src
+  visiblename: nginx
   version: 1.31.5
-  origversion: 1.31.5-2
+  origversion: null
   status: newest
-  summary: Source code of nginx-mainline 1.31.5, useful for building modules
-  licenses:
-    - BSD-2-Clause
+  summary: An HTTP and reverse proxy server (mainline version)
+  maintainers:
+    - jaeger@crux.ninja
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: nginx
@@ -5547,6 +5240,26 @@
     - BSD-2-Clause
   categories:
     - Unspecified
+- repo: chromebrew
+  srcname: nginx
+  visiblename: nginx
+  version: 1.31.5
+  origversion: null
+  status: newest
+  summary: nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.
+  licenses:
+    - BSD-2, BSD, SSLeay, MIT, GPL-2 and GPL-2+
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-xslt
+  visiblename: nginx-mod-xslt
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to transform XML responses with XSLT stylesheets
+  licenses:
+    - BSD-2-Clause
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: nginx
@@ -5634,15 +5347,15 @@
   summary: Advanced load balancer, web server, and reverse proxy (documentation)
   licenses:
     - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-xslt
-  visiblename: nginx-mainline-mod-xslt
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
+- repo: chimera
+  subrepo: main
+  srcname: nginx
+  binname: nginx-man
+  visiblename: nginx-man
+  version: 1.30.4
+  origversion: 1.30.4-r0
+  status: outdated
+  summary: Advanced load balancer, web server, and reverse proxy (manual pages)
   licenses:
     - BSD-2-Clause
 - repo: chimera
@@ -5707,35 +5420,17 @@
   origversion: null
   status: newest
   summary: HTTP and reverse proxy server
-- repo: chromebrew
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: nginx
-  visiblename: nginx
-  version: 1.31.5
-  origversion: null
-  status: newest
-  summary: nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
   licenses:
-    - BSD-2, BSD, SSLeay, MIT, GPL-2 and GPL-2+
-- repo: crux_37
-  subrepo: contrib
-  srcname: nginx
-  visiblename: nginx
-  version: 1.27.5
-  origversion: null
-  status: outdated
-  summary: An HTTP and reverse proxy server (mainline version)
-  maintainers:
-    - jaeger@crux.ninja
-- repo: crux_38
-  subrepo: contrib
-  srcname: nginx
-  visiblename: nginx
-  version: 1.31.5
-  origversion: null
-  status: newest
-  summary: An HTTP and reverse proxy server (mainline version)
-  maintainers:
-    - jaeger@crux.ninja
+    - BSD-2-Clause
 - repo: cygwin
   srcname: nginx
   binname: nginx
@@ -5792,19 +5487,89 @@
     - BSD-2-Clause
   categories:
     - Web
-- repo: manjaro_testing
+- repo: cygwin
+  srcname: nginx
+  binname: nginx-mod_http_xslt_filter
+  visiblename: nginx-mod_http_xslt_filter
+  version: 1.28.2
+  origversion: 1.28.2-1
+  status: outdated
+  summary: Web and mail proxy server
+  maintainers:
+    - chaoyang.xu@cygwin
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Web
+- repo: cygwin
+  srcname: nginx
+  binname: nginx-mod_mail
+  visiblename: nginx-mod_mail
+  version: 1.28.2
+  origversion: 1.28.2-1
+  status: outdated
+  summary: Web and mail proxy server
+  maintainers:
+    - chaoyang.xu@cygwin
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Web
+- repo: cygwin
+  srcname: nginx
+  binname: nginx-mod_stream
+  visiblename: nginx-mod_stream
+  version: 1.28.2
+  origversion: 1.28.2-1
+  status: outdated
+  summary: Web and mail proxy server
+  maintainers:
+    - chaoyang.xu@cygwin
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Web
+- repo: deepin_23
+  subrepo: main
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-doc
+    - nginx-common
+    - nginx-dev
+    - nginx-core
+    - nginx-full
+    - nginx-light
+    - nginx-extras
+    - libnginx-mod-http-geoip
+    - libnginx-mod-http-image-filter
+    - libnginx-mod-http-xslt-filter
+    - libnginx-mod-mail
+    - libnginx-mod-stream
+    - libnginx-mod-stream-geoip
+    - libnginx-mod-http-perl
+  visiblename: nginx
+  version: 1.26.3
+  origversion: 1.26.3-2
+  status: outdated
+  maintainers:
+    - pkg-nginx-maintainers@alioth-lists.debian.net
+    - janmojzis@debian.org
+  categories:
+    - httpd
+- repo: manjaro_stable
   subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-stream
-  visiblename: nginx-mainline-mod-stream
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline to proxy TCP and UDP data streams
+  srcname: nginx
+  binname: nginx-mod-stream
+  visiblename: nginx-mod-stream
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to proxy TCP and UDP data streams
   licenses:
     - BSD-2-Clause
 - repo: debian_13
-  subrepo: trixie-security/main
+  subrepo: trixie/main
   srcname: nginx
   binnames:
     - nginx
@@ -5832,7 +5597,7 @@
   categories:
     - httpd
 - repo: debian_13
-  subrepo: trixie/main
+  subrepo: trixie-security/main
   srcname: nginx
   binnames:
     - nginx
@@ -5852,7 +5617,7 @@
     - libnginx-mod-http-perl
   visiblename: nginx
   version: 1.26.3
-  origversion: 1.26.3-3+deb13u7
+  origversion: 1.26.3-3+deb13u8
   status: outdated
   maintainers:
     - pkg-nginx-maintainers@alioth-lists.debian.net
@@ -5915,34 +5680,6 @@
     - janmojzis@debian.org
   categories:
     - httpd
-- repo: deepin_23
-  subrepo: main
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-doc
-    - nginx-common
-    - nginx-dev
-    - nginx-core
-    - nginx-full
-    - nginx-light
-    - nginx-extras
-    - libnginx-mod-http-geoip
-    - libnginx-mod-http-image-filter
-    - libnginx-mod-http-xslt-filter
-    - libnginx-mod-mail
-    - libnginx-mod-stream
-    - libnginx-mod-stream-geoip
-    - libnginx-mod-http-perl
-  visiblename: nginx
-  version: 1.26.3
-  origversion: 1.26.3-2
-  status: outdated
-  maintainers:
-    - pkg-nginx-maintainers@alioth-lists.debian.net
-    - janmojzis@debian.org
-  categories:
-    - httpd
 - repo: deepin_25
   subrepo: main
   srcname: nginx
@@ -5971,6 +5708,17 @@
     - janmojzis@debian.org
   categories:
     - misc
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-src
+  visiblename: nginx-src
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Source code of nginx 1.30.4, useful for building modules
+  licenses:
+    - BSD-2-Clause
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: nginx
@@ -5999,6 +5747,30 @@
     - janmojzis@debian.org
   categories:
     - httpd
+- repo: ibmi
+  srcname: nginx
+  binnames:
+    - nginx
+  visiblename: nginx
+  version: 1.27.4
+  origversion: 1.27.4-1
+  status: outdated
+  summary: HTTP and Reverse Proxy Server
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-image-filter
+  visiblename: nginx-mod-image-filter
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
 - repo: exherbo
   subrepo: net
   srcname: www-servers/nginx
@@ -6011,34 +5783,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - www-servers
-- repo: freebsd
-  srcname: www/nginx-devel
-  binname: nginx-devel
-  visiblename: www/nginx-devel
-  version: 1.31.5
-  origversion: 1.31.5_1
-  status: newest
-  summary: Robust and small WWW server
-  maintainers:
-    - joneum@freebsd.org
-  categories:
-    - www
-- repo: mageia_9
-  subrepo: core/updates
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-debuginfo
-    - nginx-debugsource
-  visiblename: nginx
-  version: 1.26.3
-  origversion: 1.26.3-1.1.mga9
-  status: legacy
-  summary: Robust, small and high performance http and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - System/Servers
 - repo: fedora_40
   subrepo: updates
   srcname: nginx
@@ -6184,6 +5928,29 @@
   categories:
     - Unspecified
 - repo: fedora_44
+  subrepo: release
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-core
+    - nginx-all-modules
+    - nginx-filesystem
+    - nginx-mod-http-image-filter
+    - nginx-mod-http-perl
+    - nginx-mod-http-xslt-filter
+    - nginx-mod-mail
+    - nginx-mod-stream
+    - nginx-mod-devel
+  visiblename: nginx
+  version: 1.28.2
+  origversion: 2:1.28.2-1.fc44
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: fedora_44
   subrepo: updates
   srcname: nginx
   binnames:
@@ -6203,40 +5970,6 @@
   version: 1.30.4
   origversion: 2:1.30.4-1.fc44
   status: outdated
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-image-filter
-  visiblename: nginx-mainline-mod-image-filter
-  version: 1.31.5
-  origversion: 1.31.5-1
-  status: newest
-  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: fedora_44
-  subrepo: release
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-core
-    - nginx-all-modules
-    - nginx-filesystem
-    - nginx-mod-http-image-filter
-    - nginx-mod-http-perl
-    - nginx-mod-http-xslt-filter
-    - nginx-mod-mail
-    - nginx-mod-stream
-    - nginx-mod-devel
-  visiblename: nginx
-  version: 1.28.2
-  origversion: 2:1.28.2-1.fc44
-  status: legacy
   summary: A high performance web server and reverse proxy server
   licenses:
     - BSD-2-Clause
@@ -6268,23 +6001,42 @@
   categories:
     - Unspecified
 - repo: freebsd
+  srcname: www/nginx-devel
+  binname: nginx-devel
+  visiblename: www/nginx-devel
+  version: 1.31.5
+  origversion: 1.31.5_2
+  status: newest
+  summary: Robust and small WWW server
+  maintainers:
+    - joneum@freebsd.org
+  categories:
+    - www
+- repo: freebsd
   srcname: www/nginx-full
   binname: nginx-full
   visiblename: www/nginx-full
   version: 1.30.4
-  origversion: 1.30.4_8,3
+  origversion: 1.30.4_9,3
   status: outdated
   summary: Robust and small WWW server (full package)
   maintainers:
     - joneum@freebsd.org
   categories:
     - www
+- repo: homebrew
+  srcname: nginx
+  visiblename: nginx
+  version: 1.31.5
+  origversion: null
+  status: newest
+  summary: HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
 - repo: freebsd
   srcname: www/nginx-lite
   binname: nginx-lite
   visiblename: www/nginx-lite
   version: 1.30.4
-  origversion: 1.30.4_8,3
+  origversion: 1.30.4_9,3
   status: outdated
   summary: Robust and small WWW server (lite package)
   maintainers:
@@ -6296,7 +6048,7 @@
   binname: nginx
   visiblename: www/nginx
   version: 1.30.4
-  origversion: 1.30.4_8,3
+  origversion: 1.30.4_9,3
   status: legacy
   summary: Robust and small WWW server
   maintainers:
@@ -6373,6 +6125,13 @@
     - BSD-2 BSD SSLeay MIT GPL-2 GPL-2+ nginx_modules_http_security? ( Apache-2.0 ) nginx_modules_http_push_stream? ( GPL-3 )
   categories:
     - www-servers
+- repo: homebrew
+  srcname: nginx
+  visiblename: nginx
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
 - repo: gentoo
   srcname: www-servers/nginx
   visiblename: www-servers/nginx
@@ -6457,17 +6216,6 @@
     - BSD-2
   categories:
     - www-servers
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-geoip
-  visiblename: nginx-mainline-mod-geoip
-  version: 1.31.5
-  origversion: 1.31.5-1
-  status: newest
-  summary: GeoIP module for nginx-mainline
-  licenses:
-    - BSD-2-Clause
 - repo: gentoo
   srcname: www-servers/nginx
   visiblename: www-servers/nginx
@@ -6490,33 +6238,6 @@
   origversion: null
   status: outdated
   summary: HTTP and reverse proxy server
-- repo: homebrew
-  srcname: nginx
-  visiblename: nginx
-  version: 1.31.5
-  origversion: null
-  status: newest
-  summary: HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
-- repo: homebrew
-  srcname: nginx
-  visiblename: nginx
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
-- repo: ibmi
-  srcname: nginx
-  binnames:
-    - nginx
-  visiblename: nginx
-  version: 1.27.4
-  origversion: 1.27.4-1
-  status: outdated
-  summary: HTTP and Reverse Proxy Server
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
 - repo: kali_rolling
   subrepo: main
   srcname: nginx
@@ -6600,6 +6321,17 @@
     - BSD-2 BSD SSLeay MIT GPL-2 GPL-2+ nginx_modules_http_security? ( Apache-2.0 ) nginx_modules_http_push_stream? ( GPL-3 )
   categories:
     - www-servers
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx
+  visiblename: nginx
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server
+  licenses:
+    - BSD-2-Clause
 - repo: liguros_develop
   srcname: www-servers/nginx
   visiblename: www-servers/nginx
@@ -6614,6 +6346,17 @@
     - BSD-2 BSD SSLeay MIT GPL-2 GPL-2+ nginx_modules_http_security? ( Apache-2.0 ) nginx_modules_http_push_stream? ( GPL-3 )
   categories:
     - www-servers
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-image-filter
+  visiblename: nginx-mainline-mod-image-filter
+  version: 1.31.5
+  origversion: 1.31.5-1
+  status: newest
+  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
 - repo: macports
   srcname: www/nginx
   binname: nginx
@@ -6686,17 +6429,22 @@
     - BSD
   categories:
     - System/Servers
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-stream
-  visiblename: nginx-mainline-mod-stream
-  version: 1.31.5
-  origversion: 1.31.5-1
-  status: newest
-  summary: Module for nginx-mainline to proxy TCP and UDP data streams
+- repo: mageia_9
+  subrepo: core/updates
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-debuginfo
+    - nginx-debugsource
+  visiblename: nginx
+  version: 1.26.3
+  origversion: 1.26.3-1.1.mga9
+  status: legacy
+  summary: Robust, small and high performance http and reverse proxy server
   licenses:
-    - BSD-2-Clause
+    - BSD
+  categories:
+    - System/Servers
 - repo: mageia_9
   subrepo: core/updates
   srcname: nginx
@@ -6761,6 +6509,17 @@
     - BSD
   categories:
     - System/Servers
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-stream
+  visiblename: nginx-mod-stream
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
 - repo: mageia_9
   subrepo: core/updates
   srcname: nginx
@@ -6825,6 +6584,39 @@
     - System/Servers
 - repo: manjaro_stable
   subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-image-filter
+  visiblename: nginx-mod-image-filter
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-geoip
+  visiblename: nginx-mainline-mod-geoip
+  version: 1.31.5
+  origversion: 1.31.5-1
+  status: newest
+  summary: GeoIP module for nginx-mainline
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
   srcname: nginx-mainline
   binname: nginx-mainline-mod-mail
   visiblename: nginx-mainline-mod-mail
@@ -6848,210 +6640,89 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: nginx-mainline
-  binname: nginx-mainline-src
-  visiblename: nginx-mainline-src
-  version: 1.31.5
-  origversion: 1.31.5-1
-  status: newest
-  summary: Source code of nginx-mainline 1.31.5, useful for building modules
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-xslt
-  visiblename: nginx-mainline-mod-xslt
-  version: 1.31.5
-  origversion: 1.31.5-1
-  status: newest
-  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-perl
-  visiblename: nginx-mainline-mod-perl
-  version: 1.31.5
-  origversion: 1.31.5-1
-  status: newest
-  summary: Module for nginx-mainline to implement location and variable handlers in Perl
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-geoip
-  visiblename: nginx-mod-geoip
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: GeoIP module for nginx
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-image-filter
-  visiblename: nginx-mainline-mod-image-filter
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline
-  visiblename: nginx-mainline
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-image-filter
-  visiblename: nginx-mod-image-filter
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-src
-  visiblename: nginx-src
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Source code of nginx 1.30.4, useful for building modules
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-geoip
-  visiblename: nginx-mod-geoip
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: GeoIP module for nginx
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-perl
-  visiblename: nginx-mod-perl
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to implement location and variable handlers in Perl
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-xslt
-  visiblename: nginx-mod-xslt
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to transform XML responses with XSLT stylesheets
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx
-  visiblename: nginx
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-stream
-  visiblename: nginx-mod-stream
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to proxy TCP and UDP data streams
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-image-filter
-  visiblename: nginx-mainline-mod-image-filter
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-perl
-  visiblename: nginx-mainline-mod-perl
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline to implement location and variable handlers in Perl
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-xslt
-  visiblename: nginx-mainline-mod-xslt
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-src
-  visiblename: nginx-mainline-src
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Source code of nginx-mainline 1.31.5, useful for building modules
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx-mainline
   binname: nginx-mainline-mod-stream
   visiblename: nginx-mainline-mod-stream
   version: 1.31.5
-  origversion: 1.31.5-2
+  origversion: 1.31.5-1
   status: newest
   summary: Module for nginx-mainline to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-xslt
+  visiblename: nginx-mainline-mod-xslt
+  version: 1.31.5
+  origversion: 1.31.5-1
+  status: newest
+  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-perl
+  visiblename: nginx-mainline-mod-perl
+  version: 1.31.5
+  origversion: 1.31.5-1
+  status: newest
+  summary: Module for nginx-mainline to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-src
+  visiblename: nginx-mainline-src
+  version: 1.31.5
+  origversion: 1.31.5-1
+  status: newest
+  summary: Source code of nginx-mainline 1.31.5, useful for building modules
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-image-filter
+  visiblename: nginx-mainline-mod-image-filter
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-perl
+  visiblename: nginx-mainline-mod-perl
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-xslt
+  visiblename: nginx-mainline-mod-xslt
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-src
+  visiblename: nginx-mainline-src
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Source code of nginx-mainline 1.31.5, useful for building modules
   licenses:
     - BSD-2-Clause
 - repo: manjaro_unstable
@@ -7068,23 +6739,12 @@
 - repo: manjaro_unstable
   subrepo: extra
   srcname: nginx-mainline
-  binname: nginx-mainline
-  visiblename: nginx-mainline
+  binname: nginx-mainline-mod-stream
+  visiblename: nginx-mainline-mod-stream
   version: 1.31.5
   origversion: 1.31.5-2
   status: newest
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-mail
-  visiblename: nginx-mainline-mod-mail
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
+  summary: Module for nginx-mainline to proxy TCP and UDP data streams
   licenses:
     - BSD-2-Clause
 - repo: nix_stable_24_11
@@ -7580,12 +7240,12 @@
     - www
 - repo: openbsd
   srcname: www/nginx
-  binname: nginx-image_filter
+  binname: nginx-xslt
   visiblename: www/nginx
   version: 1.30.4
   origversion: 1.30.4p1
   status: outdated
-  summary: nginx image filter module
+  summary: nginx XSLT filter module
   maintainers:
     - robert@openbsd.org
   categories:
@@ -7634,6 +7294,18 @@
   origversion: 1.30.4p1
   status: outdated
   summary: nginx GeoIP2 module
+  maintainers:
+    - robert@openbsd.org
+  categories:
+    - www
+- repo: openbsd
+  srcname: www/nginx
+  binname: nginx-image_filter
+  visiblename: www/nginx
+  version: 1.30.4
+  origversion: 1.30.4p1
+  status: outdated
+  summary: nginx image filter module
   maintainers:
     - robert@openbsd.org
   categories:
@@ -7734,29 +7406,6 @@
     - robert@openbsd.org
   categories:
     - www
-- repo: openbsd
-  srcname: www/nginx
-  binname: nginx-xslt
-  visiblename: www/nginx
-  version: 1.30.4
-  origversion: 1.30.4p1
-  status: outdated
-  summary: nginx XSLT filter module
-  maintainers:
-    - robert@openbsd.org
-  categories:
-    - www
-- repo: parabola
-  subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-stream
-  visiblename: nginx-mod-stream
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to proxy TCP and UDP data streams
-  licenses:
-    - BSD-2-Clause
 - repo: openeuler_25_03
   srcname: nginx
   binnames:
@@ -7874,17 +7523,6 @@
     - MIT-style
   categories:
     - Web
-- repo: parabola
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline
-  visiblename: nginx-mainline
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
-  licenses:
-    - BSD-2-Clause
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: nginx
@@ -7902,70 +7540,23 @@
     - BSD-2-Clause
   categories:
     - Productivity/Networking/Web/Proxy
-- repo: parabola
-  subrepo: extra
+- repo: ptxdist
   srcname: nginx
-  binname: nginx-mod-xslt
-  visiblename: nginx-mod-xslt
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to transform XML responses with XSLT stylesheets
+  visiblename: nginx
+  version: 1.29.1
+  origversion: null
+  status: outdated
   licenses:
     - BSD-2-Clause
 - repo: parabola
   subrepo: extra
   srcname: nginx-mainline
-  binname: nginx-mainline-mod-image-filter
-  visiblename: nginx-mainline-mod-image-filter
+  binname: nginx-mainline-mod-xslt
+  visiblename: nginx-mainline-mod-xslt
   version: 1.31.5
   origversion: 1.31.5-2
   status: newest
-  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
-  licenses:
-    - BSD-2-Clause
-- repo: parabola
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-mail
-  visiblename: nginx-mainline-mod-mail
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
-  licenses:
-    - BSD-2-Clause
-- repo: parabola
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-geoip
-  visiblename: nginx-mainline-mod-geoip
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: GeoIP module for nginx-mainline
-  licenses:
-    - BSD-2-Clause
-- repo: parabola
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-src
-  visiblename: nginx-mainline-src
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Source code of nginx-mainline 1.31.5, useful for building modules
-  licenses:
-    - BSD-2-Clause
-- repo: parabola
-  subrepo: extra
-  srcname: nginx-mainline
-  binname: nginx-mainline-mod-stream
-  visiblename: nginx-mainline-mod-stream
-  version: 1.31.5
-  origversion: 1.31.5-2
-  status: newest
-  summary: Module for nginx-mainline to proxy TCP and UDP data streams
+  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
   licenses:
     - BSD-2-Clause
 - repo: parabola
@@ -7982,34 +7573,67 @@
 - repo: parabola
   subrepo: extra
   srcname: nginx-mainline
-  binname: nginx-mainline-mod-xslt
-  visiblename: nginx-mainline-mod-xslt
+  binname: nginx-mainline-mod-geoip
+  visiblename: nginx-mainline-mod-geoip
   version: 1.31.5
   origversion: 1.31.5-2
   status: newest
-  summary: Module for nginx-mainline to transform XML responses with XSLT stylesheets
+  summary: GeoIP module for nginx-mainline
   licenses:
     - BSD-2-Clause
 - repo: parabola
   subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-perl
-  visiblename: nginx-mod-perl
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: Module for nginx to implement location and variable handlers in Perl
+  srcname: nginx-mainline
+  binname: nginx-mainline
+  visiblename: nginx-mainline
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
   licenses:
     - BSD-2-Clause
 - repo: parabola
   subrepo: extra
-  srcname: nginx
-  binname: nginx-mod-geoip
-  visiblename: nginx-mod-geoip
-  version: 1.30.4
-  origversion: 1.30.4-1
-  status: legacy
-  summary: GeoIP module for nginx
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-stream
+  visiblename: nginx-mainline-mod-stream
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-mail
+  visiblename: nginx-mainline-mod-mail
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Mail module for nginx-mainline to proxy IMAP, POP3 and SMTP protocols
+  licenses:
+    - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-mod-image-filter
+  visiblename: nginx-mainline-mod-image-filter
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Module for nginx-mainline that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: nginx-mainline
+  binname: nginx-mainline-src
+  visiblename: nginx-mainline-src
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
+  summary: Source code of nginx-mainline 1.31.5, useful for building modules
   licenses:
     - BSD-2-Clause
 - repo: parabola
@@ -8026,12 +7650,12 @@
 - repo: parabola
   subrepo: extra
   srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
+  binname: nginx-mod-geoip
+  visiblename: nginx-mod-geoip
   version: 1.30.4
   origversion: 1.30.4-1
   status: legacy
-  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+  summary: GeoIP module for nginx
   licenses:
     - BSD-2-Clause
 - repo: parabola
@@ -8048,12 +7672,56 @@
 - repo: parabola
   subrepo: extra
   srcname: nginx
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+  licenses:
+    - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: nginx
   binname: nginx-mod-image-filter
   visiblename: nginx-mod-image-filter
   version: 1.30.4
   origversion: 1.30.4-1
   status: legacy
   summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-stream
+  visiblename: nginx-mod-stream
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to proxy TCP and UDP data streams
+  licenses:
+    - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-perl
+  visiblename: nginx-mod-perl
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-xslt
+  visiblename: nginx-mod-xslt
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to transform XML responses with XSLT stylesheets
   licenses:
     - BSD-2-Clause
 - repo: parrot
@@ -8187,17 +7855,9 @@
 - repo: pld
   srcname: nginx
   visiblename: nginx
-  version: 1.31.4
-  origversion: 1.31.4-2
-  status: outdated
-- repo: ptxdist
-  srcname: nginx
-  visiblename: nginx
-  version: 1.29.1
-  origversion: null
-  status: outdated
-  licenses:
-    - BSD-2-Clause
+  version: 1.31.5
+  origversion: 1.31.5-2
+  status: newest
 - repo: pureos_landing
   subrepo: landing/main
   srcname: nginx
@@ -8247,7 +7907,7 @@
     - libnginx-mod-http-perl
   visiblename: nginx
   version: 1.26.3
-  origversion: 1.26.3-3+deb13u7
+  origversion: 1.26.3-3+deb13u8
   status: outdated
   maintainers:
     - pkg-nginx-maintainers@alioth-lists.debian.net
@@ -8282,16 +7942,6 @@
     - janmojzis@debian.org
   categories:
     - httpd
-- repo: slackbuilds
-  srcname: network/nginx
-  visiblename: network/nginx
-  version: 1.30.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - belka@caraus.de
-  categories:
-    - network
 - repo: ravenports
   srcname: nginx
   binname: nginx
@@ -8477,6 +8127,16 @@
   status: newest
   licenses:
     - BSD-2-Clause
+- repo: slackbuilds
+  srcname: network/nginx
+  visiblename: network/nginx
+  version: 1.30.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - belka@caraus.de
+  categories:
+    - network
 - repo: solus
   srcname: nginx
   binname: nginx
@@ -8528,57 +8188,6 @@
   summary: Lightweight HTTP server
   maintainers:
     - termux@github
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: nginx
-  binname: nginx-mod-stream-js
-  visiblename: nginx-mod-stream-js
-  version: 1.30.4
-  origversion: 1.30.4_1
-  status: outdated
-  summary: High performance web and reverse proxy server - Stream njs module
-  maintainers:
-    - duncaen@voidlinux.org
-  licenses:
-    - BSD-2-Clause
-- repo: vylen
-  subrepo: community
-  srcname: nginx
-  visiblename: nginx
-  version: 1.31.5
-  origversion: 1.31.5-1
-  status: newest
-  summary: Lightweight HTTP server and IMAP/POP3 proxy server
-  maintainers:
-    - wonkru-dev@proton.me
-- repo: ubuntu_25_04
-  subrepo: plucky/main
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-doc
-    - nginx-common
-    - nginx-dev
-    - nginx-core
-    - nginx-full
-    - nginx-light
-    - nginx-extras
-    - libnginx-mod-http-geoip
-    - libnginx-mod-http-image-filter
-    - libnginx-mod-http-xslt-filter
-    - libnginx-mod-mail
-    - libnginx-mod-stream
-    - libnginx-mod-stream-geoip
-    - libnginx-mod-http-perl
-  visiblename: nginx
-  version: 1.26.3
-  origversion: 1.26.3-2ubuntu1
-  status: outdated
-  maintainers:
-    - pkg-nginx-maintainers@alioth-lists.debian.net
-    - janmojzis@debian.org
-  categories:
-    - web
 - repo: ubuntu_25_04
   subrepo: plucky-updates/main
   srcname: nginx
@@ -8604,6 +8213,34 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - janmojzis@debian.org
+  categories:
+    - web
+- repo: ubuntu_25_04
+  subrepo: plucky/main
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-doc
+    - nginx-common
+    - nginx-dev
+    - nginx-core
+    - nginx-full
+    - nginx-light
+    - nginx-extras
+    - libnginx-mod-http-geoip
+    - libnginx-mod-http-image-filter
+    - libnginx-mod-http-xslt-filter
+    - libnginx-mod-mail
+    - libnginx-mod-stream
+    - libnginx-mod-stream-geoip
+    - libnginx-mod-http-perl
+  visiblename: nginx
+  version: 1.26.3
+  origversion: 1.26.3-2ubuntu1
+  status: outdated
+  maintainers:
+    - pkg-nginx-maintainers@alioth-lists.debian.net
     - janmojzis@debian.org
   categories:
     - web
@@ -8664,34 +8301,6 @@
   categories:
     - web
 - repo: ubuntu_26_04
-  subrepo: resolute-updates/main
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-doc
-    - nginx-common
-    - nginx-dev
-    - nginx-core
-    - nginx-full
-    - nginx-light
-    - nginx-extras
-    - libnginx-mod-http-geoip
-    - libnginx-mod-http-image-filter
-    - libnginx-mod-http-xslt-filter
-    - libnginx-mod-mail
-    - libnginx-mod-stream
-    - libnginx-mod-stream-geoip
-    - libnginx-mod-http-perl
-  visiblename: nginx
-  version: 1.28.3
-  origversion: 1.28.3-2ubuntu1.10
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - janmojzis@debian.org
-  categories:
-    - web
-- repo: ubuntu_26_04
   subrepo: resolute/main
   srcname: nginx
   binnames:
@@ -8716,6 +8325,34 @@
   status: outdated
   maintainers:
     - pkg-nginx-maintainers@alioth-lists.debian.net
+    - janmojzis@debian.org
+  categories:
+    - web
+- repo: ubuntu_26_04
+  subrepo: resolute-updates/main
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-doc
+    - nginx-common
+    - nginx-dev
+    - nginx-core
+    - nginx-full
+    - nginx-light
+    - nginx-extras
+    - libnginx-mod-http-geoip
+    - libnginx-mod-http-image-filter
+    - libnginx-mod-http-xslt-filter
+    - libnginx-mod-mail
+    - libnginx-mod-stream
+    - libnginx-mod-stream-geoip
+    - libnginx-mod-http-perl
+  visiblename: nginx
+  version: 1.28.3
+  origversion: 1.28.3-2ubuntu1.10
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - janmojzis@debian.org
   categories:
     - web
@@ -8866,6 +8503,29 @@
     - duncaen@voidlinux.org
   licenses:
     - BSD-2-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: nginx
+  binname: nginx-mod-stream-js
+  visiblename: nginx-mod-stream-js
+  version: 1.30.4
+  origversion: 1.30.4_1
+  status: outdated
+  summary: High performance web and reverse proxy server - Stream njs module
+  maintainers:
+    - duncaen@voidlinux.org
+  licenses:
+    - BSD-2-Clause
+- repo: vylen
+  subrepo: community
+  srcname: nginx
+  visiblename: nginx
+  version: 1.31.5
+  origversion: 1.31.5-1
+  status: newest
+  summary: Lightweight HTTP server and IMAP/POP3 proxy server
+  maintainers:
+    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q306144
   visiblename: nginx
@@ -8875,241 +8535,127 @@
   summary: open source web server and a reverse proxy server
   licenses:
     - 2-clause BSD License
-- repo: aix_osp
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: nginx
-  visiblename: nginx
-  version: 1.17.4
-  origversion: 1.17.4-1
-  status: outdated
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.2.5
-  origversion: 1.2.5-1
+  binname: nginx-mod-perl
+  visiblename: nginx-mod-perl
+  version: 1.30.4
+  origversion: 1.30.4-1
   status: legacy
-  vulnerable: true
-- repo: aix_osp
+  summary: Module for nginx to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-xslt
+  visiblename: nginx-mod-xslt
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to transform XML responses with XSLT stylesheets
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-geoip
+  visiblename: nginx-mod-geoip
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: GeoIP module for nginx
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-image-filter
+  visiblename: nginx-mod-image-filter
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx that transforms images in JPEG, GIF, PNG, and WebP formats
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-perl
+  visiblename: nginx-mod-perl
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to implement location and variable handlers in Perl
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-xslt
+  visiblename: nginx-mod-xslt
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Module for nginx to transform XML responses with XSLT stylesheets
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-src
+  visiblename: nginx-src
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Source code of nginx 1.30.4, useful for building modules
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: nginx
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.30.4
+  origversion: 1.30.4-1
+  status: legacy
+  summary: Mail module for nginx to proxy IMAP, POP3 and SMTP protocols
+  licenses:
+    - BSD-2-Clause
+- repo: eurolinux_8
+  subrepo: appstream
   srcname: nginx
   visiblename: nginx
-  version: 1.2.6
-  origversion: 1.2.6-1
+  version: 1.16.1
+  origversion: 1:1.16.1-1.module+el8.3.0+8844+e5e7039f.1.1
   status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
   vulnerable: true
-- repo: aix_osp
+- repo: almalinux_8
+  subrepo: AppStream
   srcname: nginx
   visiblename: nginx
-  version: 1.2.7
-  origversion: 1.2.7-1
+  version: 1.14.1
+  origversion: 1:1.14.1-9.module_el8.4.0+2221+af250afe.alma
   status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.2.8
-  origversion: 1.2.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.2.9
-  origversion: 1.2.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.3.10
-  origversion: 1.3.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.3.11
-  origversion: 1.3.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.3.13
-  origversion: 1.3.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.3.15
-  origversion: 1.3.15-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.3.7
-  origversion: 1.3.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.3.8
-  origversion: 1.3.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.4.2
-  origversion: 1.4.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.4.3
-  origversion: 1.4.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.4.4
-  origversion: 1.4.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.4.7
-  origversion: 1.4.7-1
-  status: legacy
+  summary: A high performance web server and reverse proxy server
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
   vulnerable: true
 - repo: npackd_stable
   srcname: org.nginx.Nginx
   binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.6
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.7
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.8
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.9
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.9
-  origversion: 1.5.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.11
-  origversion: 1.5.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.12
-  origversion: 1.5.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
   visiblename: nginx
   version: 1.5.4
-  origversion: 1.5.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.3
-  origversion: 1.5.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.5
-  origversion: 1.5.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.5.6
-  origversion: 1.5.6-1
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.10
   origversion: null
   status: legacy
   licenses:
@@ -9120,277 +8666,341 @@
 - repo: npackd_stable
   srcname: org.nginx.Nginx
   binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.11
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
   visiblename: nginx
   version: 1.5.8
-  origversion: 1.5.8-1
+  origversion: null
   status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.6.1
-  origversion: 1.6.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.6.2
-  origversion: 1.6.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.1
-  origversion: 1.7.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.2
-  origversion: 1.7.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.3
-  origversion: 1.7.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.7
-  origversion: 1.7.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.8
-  origversion: 1.7.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.7.9
-  origversion: 1.7.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.8.0
-  origversion: 1.8.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.8.1
-  origversion: 1.8.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.0
-  origversion: 1.9.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.10
-  origversion: 1.9.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.11
-  origversion: 1.9.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.1
-  origversion: 1.9.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.12
-  origversion: 1.9.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.12
-  origversion: 1.9.12-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.13
-  origversion: 1.9.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.14
-  origversion: 1.9.14-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.15
-  origversion: 1.9.15-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.2
-  origversion: 1.9.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.3
-  origversion: 1.9.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.4
-  origversion: 1.9.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.5
-  origversion: 1.9.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.6
-  origversion: 1.9.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.7
-  origversion: 1.9.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.8
-  origversion: 1.9.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.9.9
-  origversion: 1.9.9-1
-  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
   vulnerable: true
 - repo: npackd_stable
   srcname: org.nginx.Nginx
   binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.5.10
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.11
+  origversion: 1.15.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.12
+  origversion: 1.15.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.3
+  origversion: 1.15.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.4
+  origversion: 1.15.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.10.2
+  origversion: 1.10.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.10.2
+  origversion: 1.10.2-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.10.3
+  origversion: 1.10.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.10
+  origversion: 1.11.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.11
+  origversion: 1.11.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.1
+  origversion: 1.11.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.12
+  origversion: 1.11.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.13
+  origversion: 1.11.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.2
+  origversion: 1.11.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.3
+  origversion: 1.11.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.4
+  origversion: 1.11.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.5
+  origversion: 1.11.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.5
+  origversion: 1.11.5-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.6
+  origversion: 1.11.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.7
+  origversion: 1.11.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.8
+  origversion: 1.11.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.11.9
+  origversion: 1.11.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.12.0
+  origversion: 1.12.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.12.1
+  origversion: 1.12.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.12.2
+  origversion: 1.12.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.0
+  origversion: 1.13.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.10
+  origversion: 1.13.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.11
+  origversion: 1.13.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.1
+  origversion: 1.13.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
   visiblename: nginx
   version: 1.13.12
-  origversion: null
+  origversion: 1.13.12-1
   status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
+- repo: aix_osp
+  srcname: nginx
   visiblename: nginx
-  version: "1.9"
-  origversion: null
+  version: 1.13.2
+  origversion: 1.13.2-1
   status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
+- repo: aix_osp
+  srcname: nginx
   visiblename: nginx
-  version: 1.9.3
-  origversion: null
+  version: 1.13.3
+  origversion: 1.13.3-1
   status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
+- repo: aix_osp
+  srcname: nginx
   visiblename: nginx
-  version: "1.15"
-  origversion: null
+  version: 1.13.4
+  origversion: 1.13.4-1
   status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
+- repo: aix_osp
+  srcname: nginx
   visiblename: nginx
-  version: 1.15.1
-  origversion: null
+  version: 1.13.5
+  origversion: 1.13.5-1
   status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.6
+  origversion: 1.13.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.7
+  origversion: 1.13.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.8
+  origversion: 1.13.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.13.9
+  origversion: 1.13.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.14.0
+  origversion: 1.14.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.14.1
+  origversion: 1.14.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.14.2
+  origversion: 1.14.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.10
+  origversion: 1.15.10-1
+  status: legacy
   vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
@@ -9421,45 +9031,6 @@
     - BSD
   categories:
     - System Environment/Daemons
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.14.1
-  origversion: 1:1.14.1-9.module_el8.4.0+2221+af250afe.alma
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.15.2
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.15.3
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
@@ -9511,7 +9082,7 @@
   srcname: nginx
   visiblename: nginx
   version: 1.16.1
-  origversion: 1:1.16.1-2.module_el8.5.0+35+6a1225c3.1.alma
+  origversion: 1:1.16.1-2.module_el8.4.0+2470+68135136.1.alma
   status: legacy
   summary: A high performance web server and reverse proxy server
   maintainers:
@@ -9526,7 +9097,7 @@
   srcname: nginx
   visiblename: nginx
   version: 1.16.1
-  origversion: 1:1.16.1-2.module_el8.4.0+2470+68135136.1.alma
+  origversion: 1:1.16.1-2.module_el8.5.0+35+6a1225c3.1.alma
   status: legacy
   summary: A high performance web server and reverse proxy server
   maintainers:
@@ -9535,69 +9106,6 @@
     - BSD
   categories:
     - System Environment/Daemons
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.3
-  origversion: 1.11.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.4
-  origversion: 1.11.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.5
-  origversion: 1.11.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.11.5
-  origversion: 1.11.5-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.10.0
-  origversion: 1.10.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.10.2
-  origversion: 1.10.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.10.2
-  origversion: 1.10.2-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: nginx
-  visiblename: nginx
-  version: 1.10.3
-  origversion: 1.10.3-1
-  status: legacy
   vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
@@ -9854,6 +9362,20 @@
   categories:
     - System Environment/Daemons
   vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: nginx
+  binname: nginx-mod-http-echo
+  visiblename: nginx-mod-http-echo
+  version: 1.22.1
+  origversion: 1.22.1-r1
+  status: outdated
+  summary: Nginx third-party module http-echo (version v0.63)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
 - repo: almalinux_9
   subrepo: AppStream
   srcname: nginx
@@ -9937,20 +9459,6 @@
     - BSD
   categories:
     - Unspecified
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: nginx
-  binname: nginx-mod-http-vod
-  visiblename: nginx-mod-http-vod
-  version: 1.22.1
-  origversion: 1.22.1-r1
-  status: outdated
-  summary: Nginx third-party module http-vod (version 1.30)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
   vulnerable: true
 - repo: almalinux_9
   subrepo: AppStream
@@ -10221,20 +9729,6 @@
 - repo: alpine_3_17
   subrepo: main
   srcname: nginx
-  binname: nginx-mod-http-echo
-  visiblename: nginx-mod-http-echo
-  version: 1.22.1
-  origversion: 1.22.1-r1
-  status: outdated
-  summary: Nginx third-party module http-echo (version v0.63)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: nginx
   binname: nginx-mod-http-array-var
   visiblename: nginx-mod-http-array-var
   version: 1.22.1
@@ -10283,6 +9777,20 @@
   origversion: 1.22.1-r1
   status: outdated
   summary: Nginx third-party module http-zip (version 1.2.0)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: nginx
+  binname: nginx-mod-http-vod
+  visiblename: nginx-mod-http-vod
+  version: 1.22.1
+  origversion: 1.22.1-r1
+  status: outdated
+  summary: Nginx third-party module http-vod (version 1.30)
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -10512,6 +10020,19 @@
   licenses:
     - BSD-2-Clause
   vulnerable: true
+- repo: carbs
+  subrepo: extra
+  srcname: nginx
+  visiblename: nginx
+  version: 1.25.2
+  origversion: null
+  status: outdated
+  summary: High performance web server
+  maintainers:
+    - cem@carbslinux.org
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: nginx
@@ -10579,19 +10100,6 @@
   summary: Nginx third-party module http-upstream-jdomain (version 1.4.0)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
-- repo: carbs
-  subrepo: extra
-  srcname: nginx
-  visiblename: nginx
-  version: 1.25.2
-  origversion: null
-  status: outdated
-  summary: High performance web server
-  maintainers:
-    - cem@carbslinux.org
   licenses:
     - BSD-2-Clause
   vulnerable: true
@@ -11098,18 +10606,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.9.6
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
 - repo: alpine_3_18
   subrepo: main
@@ -11688,20 +11184,6 @@
 - repo: alpine_3_19
   subrepo: main
   srcname: nginx
-  binname: nginx-mod-mail
-  visiblename: nginx-mod-mail
-  version: 1.24.0
-  origversion: 1.24.0-r16
-  status: outdated
-  summary: Nginx module mail
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: nginx
   binname: nginx-mod-http-keyval
   visiblename: nginx-mod-http-keyval
   version: 1.24.0
@@ -11782,18 +11264,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.15.4
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
 - repo: alpine_3_19
   subrepo: main
@@ -11980,6 +11450,20 @@
 - repo: alpine_3_19
   subrepo: main
   srcname: nginx
+  binname: nginx-mod-mail
+  visiblename: nginx-mod-mail
+  version: 1.24.0
+  origversion: 1.24.0-r16
+  status: outdated
+  summary: Nginx module mail
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: nginx
   binname: nginx-mod-rtmp
   visiblename: nginx-mod-rtmp
   version: 1.24.0
@@ -12088,69 +11572,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.20.0
-  origversion: 1:1.20.0-2.module+el8.5.0+12317+1b759a19
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.9.12
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.20.1
-  origversion: 1:1.20.1-1.module+el8.5.0+13723+ab304644
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.20.1
-  origversion: 1:1.20.1-1.module+el8.6.0+13722+f063ea60
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.9.15
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
 - repo: amazon_1
   subrepo: main
@@ -12391,18 +11812,6 @@
   maintainers:
     - pkg-nginx-maintainers@alioth-lists.debian.net
     - jan.mojzis@gmail.com
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.11.3
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
   vulnerable: true
 - repo: centos_8
   subrepo: AppStream
@@ -12873,29 +12282,31 @@
   categories:
     - httpd
   vulnerable: true
-- repo: epel_6
+- repo: eurolinux_9
+  subrepo: appstream
   srcname: nginx
+  binnames:
+    - nginx
+    - nginx-core
+    - nginx-all-modules
+    - nginx-filesystem
+    - nginx-mod-http-image-filter
+    - nginx-mod-http-perl
+    - nginx-mod-http-xslt-filter
+    - nginx-mod-mail
+    - nginx-mod-stream
+    - nginx-mod-devel
+    - nginx-debuginfo
+    - nginx-debugsource
   visiblename: nginx
-  version: 1.10.3
-  origversion: 1.10.3-1.el6
-  status: outdated
+  version: 1.20.1
+  origversion: 1:1.20.1-13.el9
+  status: legacy
   summary: A high performance web server and reverse proxy server
   licenses:
     - BSD
   categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.11.5
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
+    - Unspecified
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm-security/main
@@ -12925,32 +12336,6 @@
     - jan.mojzis@gmail.com
   categories:
     - httpd
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-core
-    - nginx-all-modules
-    - nginx-filesystem
-    - nginx-mod-http-image-filter
-    - nginx-mod-http-perl
-    - nginx-mod-http-xslt-filter
-    - nginx-mod-mail
-    - nginx-mod-stream
-    - nginx-mod-devel
-    - nginx-debuginfo
-    - nginx-debugsource
-  visiblename: nginx
-  version: 1.22.1
-  origversion: 1:1.22.1-5.module+el9.4.0+21951+1a8059c8.1
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: deepin_unstable
   subrepo: main
@@ -12988,6 +12373,32 @@
   maintainers:
     - pkg-nginx-maintainers@alioth-lists.debian.net
     - ctrochalakis@debian.org
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-core
+    - nginx-all-modules
+    - nginx-filesystem
+    - nginx-mod-http-image-filter
+    - nginx-mod-http-perl
+    - nginx-mod-http-xslt-filter
+    - nginx-mod-mail
+    - nginx-mod-stream
+    - nginx-mod-devel
+    - nginx-debuginfo
+    - nginx-debugsource
+  visiblename: nginx
+  version: 1.20.1
+  origversion: 1:1.20.1-14.el9
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -13033,6 +12444,18 @@
   categories:
     - httpd
   vulnerable: true
+- repo: epel_6
+  srcname: nginx
+  visiblename: nginx
+  version: 1.10.3
+  origversion: 1.10.3-1.el6
+  status: outdated
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
 - repo: epel_7
   srcname: nginx
   visiblename: nginx
@@ -13044,31 +12467,6 @@
     - BSD
   categories:
     - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.4
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.16.1
-  origversion: 1:1.16.1-1.module+el8.3.0+8844+e5e7039f.1.1
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
   vulnerable: true
 - repo: eurolinux_8
   subrepo: appstream
@@ -13121,6 +12519,71 @@
     - BSD
   categories:
     - System Environment/Daemons
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: nginx
+  visiblename: nginx
+  version: 1.20.0
+  origversion: 1:1.20.0-2.module+el8.5.0+12317+1b759a19
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: nginx
+  visiblename: nginx
+  version: 1.20.1
+  origversion: 1:1.20.1-1.module+el8.5.0+13723+ab304644
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: nginx
+  visiblename: nginx
+  version: 1.20.1
+  origversion: 1:1.20.1-1.module+el8.6.0+13722+f063ea60
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-core
+    - nginx-all-modules
+    - nginx-filesystem
+    - nginx-mod-http-image-filter
+    - nginx-mod-http-perl
+    - nginx-mod-http-xslt-filter
+    - nginx-mod-mail
+    - nginx-mod-stream
+    - nginx-mod-devel
+    - nginx-debuginfo
+    - nginx-debugsource
+  visiblename: nginx
+  version: 1.22.1
+  origversion: 1:1.22.1-5.module+el9.4.0+21951+1a8059c8.1
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: eurolinux_8
   subrepo: appstream
@@ -13179,58 +12642,6 @@
   visiblename: nginx
   version: 1.20.1
   origversion: 1:1.20.1-10.el9
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-core
-    - nginx-all-modules
-    - nginx-filesystem
-    - nginx-mod-http-image-filter
-    - nginx-mod-http-perl
-    - nginx-mod-http-xslt-filter
-    - nginx-mod-mail
-    - nginx-mod-stream
-    - nginx-mod-devel
-    - nginx-debuginfo
-    - nginx-debugsource
-  visiblename: nginx
-  version: 1.20.1
-  origversion: 1:1.20.1-13.el9
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-core
-    - nginx-all-modules
-    - nginx-filesystem
-    - nginx-mod-http-image-filter
-    - nginx-mod-http-perl
-    - nginx-mod-http-xslt-filter
-    - nginx-mod-mail
-    - nginx-mod-stream
-    - nginx-mod-devel
-    - nginx-debuginfo
-    - nginx-debugsource
-  visiblename: nginx
-  version: 1.20.1
-  origversion: 1:1.20.1-14.el9
   status: legacy
   summary: A high performance web server and reverse proxy server
   licenses:
@@ -13419,18 +12830,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.5
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
 - repo: fedora_41
   subrepo: release
   srcname: nginx
@@ -13455,15 +12854,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: haikuports_master
-  srcname: www-servers/nginx
-  visiblename: www-servers/nginx
-  version: 1.23.2
-  origversion: null
-  status: outdated
-  categories:
-    - www-servers
-  vulnerable: true
 - repo: ibmi
   srcname: nginx
   visiblename: nginx
@@ -13475,6 +12865,15 @@
     - BSD-2-Clause
   categories:
     - Unspecified
+  vulnerable: true
+- repo: haikuports_master
+  srcname: www-servers/nginx
+  visiblename: www-servers/nginx
+  version: 1.23.2
+  origversion: null
+  status: outdated
+  categories:
+    - www-servers
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -13574,6 +12973,30 @@
   srcname: org.nginx.Nginx
   binname: org.nginx.Nginx
   visiblename: nginx
+  version: 1.13.1
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.2
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
   version: 1.2.3
   origversion: null
   status: legacy
@@ -13646,42 +13069,6 @@
   srcname: org.nginx.Nginx
   binname: org.nginx.Nginx
   visiblename: nginx
-  version: 1.5.4
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.5.8
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.5.10
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
   version: 1.5.13
   origversion: null
   status: legacy
@@ -13730,6 +13117,90 @@
   srcname: org.nginx.Nginx
   binname: org.nginx.Nginx
   visiblename: nginx
+  version: "1.9"
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.9.3
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.9.6
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.9.12
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.9.15
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.11.3
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.11.5
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
   version: 1.11.9
   origversion: null
   status: legacy
@@ -13742,31 +13213,175 @@
   srcname: org.nginx.Nginx
   binname: org.nginx.Nginx
   visiblename: nginx
-  version: 1.13.1
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
-  version: 1.13.2
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD 2-clause license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.nginx.Nginx
-  binname: org.nginx.Nginx
-  visiblename: nginx
   version: 1.13.3
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.4
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.5
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.6
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.7
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.8
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.9
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.10
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.11
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.13.12
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: "1.15"
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.15.1
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.15.2
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.15.3
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD 2-clause license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.nginx.Nginx
+  binname: org.nginx.Nginx
+  visiblename: nginx
+  version: 1.15.4
   origversion: null
   status: legacy
   licenses:
@@ -14398,32 +14013,6 @@
   categories:
     - Communications
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: nginx
-  visiblename: nginx
-  version: 1.21.5
-  origversion: 1.21.5-150600.10.9.1
-  status: outdated
-  summary: A HTTP server and IMAP/POP3 proxy server
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Networking/Web/Proxy
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: nginx
-  visiblename: nginx
-  version: 1.21.5
-  origversion: 1.21.5-150600.10.12.1
-  status: outdated
-  summary: A HTTP server and IMAP/POP3 proxy server
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Networking/Web/Proxy
-  vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: nginx
   visiblename: nginx
@@ -14548,19 +14137,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: nginx
-  visiblename: nginx
-  version: 1.21.5
-  origversion: 1.21.5-150600.10.3.1
-  status: outdated
-  summary: A HTTP server and IMAP/POP3 proxy server
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Networking/Web/Proxy
-  vulnerable: true
 - repo: openeuler_24_03_lts_sp1
   srcname: nginx
   binnames:
@@ -14642,7 +14218,46 @@
   srcname: nginx
   visiblename: nginx
   version: 1.21.5
+  origversion: 1.21.5-150600.10.12.1
+  status: outdated
+  summary: A HTTP server and IMAP/POP3 proxy server
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Networking/Web/Proxy
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: nginx
+  visiblename: nginx
+  version: 1.21.5
+  origversion: 1.21.5-150600.10.3.1
+  status: outdated
+  summary: A HTTP server and IMAP/POP3 proxy server
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Networking/Web/Proxy
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: nginx
+  visiblename: nginx
+  version: 1.21.5
   origversion: 1.21.5-150600.10.6.1
+  status: outdated
+  summary: A HTTP server and IMAP/POP3 proxy server
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Networking/Web/Proxy
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: nginx
+  visiblename: nginx
+  version: 1.21.5
+  origversion: 1.21.5-150600.10.9.1
   status: outdated
   summary: A HTTP server and IMAP/POP3 proxy server
   licenses:
@@ -15070,36 +14685,6 @@
   categories:
     - net
   vulnerable: true
-- repo: rocky_8
-  subrepo: AppStream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.20.1
-  origversion: 1:1.20.1-2.module+el8.10.0+1541+85258ade
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  maintainers:
-    - infrastructure@rockylinux.org
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: rocky_8
-  subrepo: AppStream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.22.1
-  origversion: 1:1.22.1-2.module+el8.10.0+1540+8eca54a7
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  maintainers:
-    - infrastructure@rockylinux.org
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
 - repo: pardus_21
   subrepo: main
   srcname: nginx
@@ -15252,16 +14837,14 @@
   categories:
     - httpd
   vulnerable: true
-- repo: rocky_8
-  subrepo: AppStream
+- repo: ubi_8
+  subrepo: appstream
   srcname: nginx
   visiblename: nginx
-  version: 1.24.0
-  origversion: 1:1.24.0-3.module+el8.10.0+40144+38158758
-  status: outdated
+  version: 1.22.1
+  origversion: 1:1.22.1-1.module+el8.8.0+20355+6d9c8a63.1
+  status: legacy
   summary: A high performance web server and reverse proxy server
-  maintainers:
-    - infrastructure@rockylinux.org
   licenses:
     - BSD
   categories:
@@ -15271,8 +14854,8 @@
   subrepo: appstream
   srcname: nginx
   visiblename: nginx
-  version: 1.22.1
-  origversion: 1:1.22.1-1.module+el8.8.0+20355+6d9c8a63.1
+  version: 1.20.1
+  origversion: 1:1.20.1-1.module+el8.8.0+20359+9bd89172.1
   status: legacy
   summary: A high performance web server and reverse proxy server
   licenses:
@@ -15413,6 +14996,36 @@
   subrepo: AppStream
   srcname: nginx
   visiblename: nginx
+  version: 1.20.1
+  origversion: 1:1.20.1-2.module+el8.10.0+1541+85258ade
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  maintainers:
+    - infrastructure@rockylinux.org
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: rocky_8
+  subrepo: AppStream
+  srcname: nginx
+  visiblename: nginx
+  version: 1.22.1
+  origversion: 1:1.22.1-2.module+el8.10.0+1540+8eca54a7
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  maintainers:
+    - infrastructure@rockylinux.org
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: rocky_8
+  subrepo: AppStream
+  srcname: nginx
+  visiblename: nginx
   version: 1.24.0
   origversion: 1:1.24.0-1.module+el8.10.0+1665+a6c695b5
   status: outdated
@@ -15439,14 +15052,16 @@
   categories:
     - System Environment/Daemons
   vulnerable: true
-- repo: ubi_8
-  subrepo: appstream
+- repo: rocky_8
+  subrepo: AppStream
   srcname: nginx
   visiblename: nginx
-  version: 1.18.0
-  origversion: 1:1.18.0-3.module+el8.4.0+11152+f736ed63.1
-  status: legacy
+  version: 1.24.0
+  origversion: 1:1.24.0-3.module+el8.10.0+40144+38158758
+  status: outdated
   summary: A high performance web server and reverse proxy server
+  maintainers:
+    - infrastructure@rockylinux.org
   licenses:
     - BSD
   categories:
@@ -15539,6 +15154,32 @@
     - BSD
   categories:
     - Unspecified
+  vulnerable: true
+- repo: ubi_8
+  subrepo: appstream
+  srcname: nginx
+  visiblename: nginx
+  version: 1.14.1
+  origversion: 1:1.14.1-9.module+el8.0.0+4108+af250afe
+  status: legacy
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
+  vulnerable: true
+- repo: ubi_8
+  subrepo: appstream
+  srcname: nginx
+  visiblename: nginx
+  version: 1.24.0
+  origversion: 1:1.24.0-3.module+el8.10.0+24644+2676a8ce.4
+  status: outdated
+  summary: A high performance web server and reverse proxy server
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Daemons
   vulnerable: true
 - repo: rocky_9
   subrepo: AppStream
@@ -15802,6 +15443,82 @@
     - fallback-mnt-spack@repology
   licenses:
     - BSD-2-Clause
+  vulnerable: true
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-doc
+    - nginx-common
+    - nginx-core
+    - nginx-full
+    - nginx-light
+    - nginx-extras
+    - libnginx-mod-http-geoip
+    - libnginx-mod-http-geoip2
+    - libnginx-mod-http-image-filter
+    - libnginx-mod-http-xslt-filter
+    - libnginx-mod-mail
+    - libnginx-mod-stream
+    - libnginx-mod-stream-geoip
+    - libnginx-mod-stream-geoip2
+    - libnginx-mod-http-perl
+    - libnginx-mod-http-auth-pam
+    - libnginx-mod-http-ndk
+    - libnginx-mod-nchan
+    - libnginx-mod-http-echo
+    - libnginx-mod-http-upstream-fair
+    - libnginx-mod-http-headers-more-filter
+    - libnginx-mod-http-cache-purge
+    - libnginx-mod-http-fancyindex
+    - libnginx-mod-http-uploadprogress
+    - libnginx-mod-http-subs-filter
+    - libnginx-mod-http-dav-ext
+    - libnginx-mod-rtmp
+  visiblename: nginx
+  version: 1.18.0
+  origversion: 1.18.0-6ubuntu14.3+11.0trisquel1
+  status: outdated
+  maintainers:
+    - trisquel-devel@listas.trisquel.info
+    - ctrochalakis@debian.org
+    - onovy@debian.org
+  categories:
+    - httpd
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-doc
+    - nginx-common
+    - nginx-core
+    - nginx-core-dbg
+    - nginx-full
+    - nginx-full-dbg
+    - nginx-light
+    - nginx-light-dbg
+    - nginx-extras
+    - nginx-extras-dbg
+    - nginx-naxsi
+    - nginx-naxsi-dbg
+    - nginx-naxsi-ui
+  visiblename: nginx
+  version: 1.4.6
+  origversion: 1.4.6-1ubuntu3.9
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - bureado@debian.org
+    - cyril.lavier@davromaniak.eu
+    - kobold@debian.org
+    - michael@lustfield.net
+    - unera@debian.org
+    - yatiohi@ideopolis.gr
+  categories:
+    - web
   vulnerable: true
 - repo: trisquel_10_0
   subrepo: nabia/main
@@ -16094,49 +15811,6 @@
   categories:
     - httpd
   vulnerable: true
-- repo: trisquel_11_0
-  subrepo: aramo/main
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-doc
-    - nginx-common
-    - nginx-core
-    - nginx-full
-    - nginx-light
-    - nginx-extras
-    - libnginx-mod-http-geoip
-    - libnginx-mod-http-geoip2
-    - libnginx-mod-http-image-filter
-    - libnginx-mod-http-xslt-filter
-    - libnginx-mod-mail
-    - libnginx-mod-stream
-    - libnginx-mod-stream-geoip
-    - libnginx-mod-stream-geoip2
-    - libnginx-mod-http-perl
-    - libnginx-mod-http-auth-pam
-    - libnginx-mod-http-ndk
-    - libnginx-mod-nchan
-    - libnginx-mod-http-echo
-    - libnginx-mod-http-upstream-fair
-    - libnginx-mod-http-headers-more-filter
-    - libnginx-mod-http-cache-purge
-    - libnginx-mod-http-fancyindex
-    - libnginx-mod-http-uploadprogress
-    - libnginx-mod-http-subs-filter
-    - libnginx-mod-http-dav-ext
-    - libnginx-mod-rtmp
-  visiblename: nginx
-  version: 1.18.0
-  origversion: 1.18.0-6ubuntu14.3+11.0trisquel1
-  status: outdated
-  maintainers:
-    - trisquel-devel@listas.trisquel.info
-    - ctrochalakis@debian.org
-    - onovy@debian.org
-  categories:
-    - httpd
-  vulnerable: true
 - repo: ubi_8
   subrepo: appstream
   srcname: nginx
@@ -16154,73 +15828,14 @@
   subrepo: appstream
   srcname: nginx
   visiblename: nginx
-  version: 1.20.1
-  origversion: 1:1.20.1-1.module+el8.8.0+20359+9bd89172.1
+  version: 1.18.0
+  origversion: 1:1.18.0-3.module+el8.4.0+11152+f736ed63.1
   status: legacy
   summary: A high performance web server and reverse proxy server
   licenses:
     - BSD
   categories:
     - System Environment/Daemons
-  vulnerable: true
-- repo: ubi_8
-  subrepo: appstream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.14.1
-  origversion: 1:1.14.1-9.module+el8.0.0+4108+af250afe
-  status: legacy
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: ubi_8
-  subrepo: appstream
-  srcname: nginx
-  visiblename: nginx
-  version: 1.24.0
-  origversion: 1:1.24.0-3.module+el8.10.0+24644+2676a8ce.4
-  status: outdated
-  summary: A high performance web server and reverse proxy server
-  licenses:
-    - BSD
-  categories:
-    - System Environment/Daemons
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty-updates/main
-  srcname: nginx
-  binnames:
-    - nginx
-    - nginx-doc
-    - nginx-common
-    - nginx-core
-    - nginx-core-dbg
-    - nginx-full
-    - nginx-full-dbg
-    - nginx-light
-    - nginx-light-dbg
-    - nginx-extras
-    - nginx-extras-dbg
-    - nginx-naxsi
-    - nginx-naxsi-dbg
-    - nginx-naxsi-ui
-  visiblename: nginx
-  version: 1.4.6
-  origversion: 1.4.6-1ubuntu3.9
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - bureado@debian.org
-    - cyril.lavier@davromaniak.eu
-    - kobold@debian.org
-    - michael@lustfield.net
-    - unera@debian.org
-    - yatiohi@ideopolis.gr
-  categories:
-    - web
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty/main
@@ -16244,6 +15859,36 @@
   version: 1.4.6
   origversion: 1.4.6-1ubuntu3
   status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - bureado@debian.org
+    - cyril.lavier@davromaniak.eu
+    - kobold@debian.org
+    - michael@lustfield.net
+    - unera@debian.org
+    - yatiohi@ideopolis.gr
+  categories:
+    - web
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: nginx
+  binnames:
+    - nginx
+    - nginx-doc
+    - nginx-common
+    - nginx-core
+    - nginx-core-dbg
+    - nginx-full
+    - nginx-full-dbg
+    - nginx-light
+    - nginx-light-dbg
+    - nginx-extras
+    - nginx-extras-dbg
+  visiblename: nginx
+  version: 1.9.15
+  origversion: 1.9.15-0ubuntu1
+  status: legacy
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - bureado@debian.org
@@ -16285,33 +15930,43 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/main
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/main
   srcname: nginx
   binnames:
     - nginx
     - nginx-doc
     - nginx-common
     - nginx-core
-    - nginx-core-dbg
     - nginx-full
-    - nginx-full-dbg
     - nginx-light
-    - nginx-light-dbg
     - nginx-extras
-    - nginx-extras-dbg
+    - libnginx-mod-http-geoip
+    - libnginx-mod-http-image-filter
+    - libnginx-mod-http-xslt-filter
+    - libnginx-mod-mail
+    - libnginx-mod-stream
+    - libnginx-mod-http-perl
+    - libnginx-mod-http-auth-pam
+    - libnginx-mod-http-lua
+    - libnginx-mod-http-ndk
+    - libnginx-mod-nchan
+    - libnginx-mod-http-echo
+    - libnginx-mod-http-upstream-fair
+    - libnginx-mod-http-headers-more-filter
+    - libnginx-mod-http-cache-purge
+    - libnginx-mod-http-fancyindex
+    - libnginx-mod-http-uploadprogress
+    - libnginx-mod-http-subs-filter
+    - libnginx-mod-http-dav-ext
+    - libnginx-mod-rtmp
   visiblename: nginx
-  version: 1.9.15
-  origversion: 1.9.15-0ubuntu1
-  status: legacy
+  version: 1.14.0
+  origversion: 1.14.0-0ubuntu1.11
+  status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-    - bureado@debian.org
-    - cyril.lavier@davromaniak.eu
-    - kobold@debian.org
-    - michael@lustfield.net
-    - unera@debian.org
-    - yatiohi@ideopolis.gr
+    - ctrochalakis@debian.org
   categories:
     - web
   vulnerable: true
@@ -16355,8 +16010,8 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic-updates/main
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
   srcname: nginx
   binnames:
     - nginx
@@ -16385,9 +16040,10 @@
     - libnginx-mod-http-subs-filter
     - libnginx-mod-http-dav-ext
     - libnginx-mod-rtmp
+    - libnginx-mod-http-geoip2
   visiblename: nginx
-  version: 1.14.0
-  origversion: 1.14.0-0ubuntu1.11
+  version: 1.18.0
+  origversion: 1.18.0-0ubuntu1.7
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -16436,8 +16092,8 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/main
   srcname: nginx
   binnames:
     - nginx
@@ -16448,13 +16104,15 @@
     - nginx-light
     - nginx-extras
     - libnginx-mod-http-geoip
+    - libnginx-mod-http-geoip2
     - libnginx-mod-http-image-filter
     - libnginx-mod-http-xslt-filter
     - libnginx-mod-mail
     - libnginx-mod-stream
+    - libnginx-mod-stream-geoip
+    - libnginx-mod-stream-geoip2
     - libnginx-mod-http-perl
     - libnginx-mod-http-auth-pam
-    - libnginx-mod-http-lua
     - libnginx-mod-http-ndk
     - libnginx-mod-nchan
     - libnginx-mod-http-echo
@@ -16466,14 +16124,14 @@
     - libnginx-mod-http-subs-filter
     - libnginx-mod-http-dav-ext
     - libnginx-mod-rtmp
-    - libnginx-mod-http-geoip2
   visiblename: nginx
   version: 1.18.0
-  origversion: 1.18.0-0ubuntu1.7
+  origversion: 1.18.0-6ubuntu14.20
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - ctrochalakis@debian.org
+    - onovy@debian.org
   categories:
     - web
   vulnerable: true
@@ -16520,46 +16178,32 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/main
+- repo: ubuntu_24_04
+  subrepo: noble/main
   srcname: nginx
   binnames:
     - nginx
     - nginx-doc
     - nginx-common
+    - nginx-dev
     - nginx-core
     - nginx-full
     - nginx-light
     - nginx-extras
     - libnginx-mod-http-geoip
-    - libnginx-mod-http-geoip2
     - libnginx-mod-http-image-filter
     - libnginx-mod-http-xslt-filter
     - libnginx-mod-mail
     - libnginx-mod-stream
     - libnginx-mod-stream-geoip
-    - libnginx-mod-stream-geoip2
     - libnginx-mod-http-perl
-    - libnginx-mod-http-auth-pam
-    - libnginx-mod-http-ndk
-    - libnginx-mod-nchan
-    - libnginx-mod-http-echo
-    - libnginx-mod-http-upstream-fair
-    - libnginx-mod-http-headers-more-filter
-    - libnginx-mod-http-cache-purge
-    - libnginx-mod-http-fancyindex
-    - libnginx-mod-http-uploadprogress
-    - libnginx-mod-http-subs-filter
-    - libnginx-mod-http-dav-ext
-    - libnginx-mod-rtmp
   visiblename: nginx
-  version: 1.18.0
-  origversion: 1.18.0-6ubuntu14.20
+  version: 1.24.0
+  origversion: 1.24.0-2ubuntu7
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-    - ctrochalakis@debian.org
-    - onovy@debian.org
+    - jan.mojzis@gmail.com
   categories:
     - web
   vulnerable: true
@@ -16592,32 +16236,388 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/main
+- repo: aix_osp
   srcname: nginx
-  binnames:
-    - nginx
-    - nginx-doc
-    - nginx-common
-    - nginx-dev
-    - nginx-core
-    - nginx-full
-    - nginx-light
-    - nginx-extras
-    - libnginx-mod-http-geoip
-    - libnginx-mod-http-image-filter
-    - libnginx-mod-http-xslt-filter
-    - libnginx-mod-mail
-    - libnginx-mod-stream
-    - libnginx-mod-stream-geoip
-    - libnginx-mod-http-perl
   visiblename: nginx
-  version: 1.24.0
-  origversion: 1.24.0-2ubuntu7
+  version: 1.5.9
+  origversion: 1.5.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.14
+  origversion: 1.9.14-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.15
+  origversion: 1.9.15-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.2
+  origversion: 1.9.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.8
+  origversion: 1.5.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.6
+  origversion: 1.15.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.7
+  origversion: 1.15.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.15.8
+  origversion: 1.15.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.16.0
+  origversion: 1.16.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.17.0
+  origversion: 1.17.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.17.1
+  origversion: 1.17.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.17.3
+  origversion: 1.17.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.17.4
+  origversion: 1.17.4-1
   status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - jan.mojzis@gmail.com
-  categories:
-    - web
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.2.4
+  origversion: 1.2.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.2.5
+  origversion: 1.2.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.2.6
+  origversion: 1.2.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.2.8
+  origversion: 1.2.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.2.9
+  origversion: 1.2.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.3.10
+  origversion: 1.3.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.3.11
+  origversion: 1.3.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.3.13
+  origversion: 1.3.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.3.15
+  origversion: 1.3.15-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.3.16
+  origversion: 1.3.16-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.3.7
+  origversion: 1.3.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.3.8
+  origversion: 1.3.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.4.1
+  origversion: 1.4.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.4.3
+  origversion: 1.4.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.4.4
+  origversion: 1.4.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.4.5
+  origversion: 1.4.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.4.6
+  origversion: 1.4.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.4.7
+  origversion: 1.4.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.11
+  origversion: 1.5.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.1
+  origversion: 1.5.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.2
+  origversion: 1.5.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.3
+  origversion: 1.5.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.4
+  origversion: 1.5.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.5
+  origversion: 1.5.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.5.7
+  origversion: 1.5.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.6.2
+  origversion: 1.6.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.6.3
+  origversion: 1.6.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.10
+  origversion: 1.7.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.11
+  origversion: 1.7.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.1
+  origversion: 1.7.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.12
+  origversion: 1.7.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.2
+  origversion: 1.7.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.3
+  origversion: 1.7.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.7.6
+  origversion: 1.7.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.8.1
+  origversion: 1.8.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.10
+  origversion: 1.9.10-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.12
+  origversion: 1.9.12-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.13
+  origversion: 1.9.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.3
+  origversion: 1.9.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.6
+  origversion: 1.9.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.7
+  origversion: 1.9.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: nginx
+  visiblename: nginx
+  version: 1.9.8
+  origversion: 1.9.8-1
+  status: legacy
   vulnerable: true
