@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,627 · **Forks**: 8,301 · **Open issues**: 628 · **Contributors**: 124
+- **Stars**: 31,630 · **Forks**: 8,300 · **Open issues**: 628 · **Contributors**: 124
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 10 | 54 | 5 | 26 | 16 |
-| last60d | 2026-07-15 | 4 | 34 | 86 | 15 | 29 | 49 |
-| 90d | 2026-06-15 | 6 | 53 | 108 | 35 | 41 | 71 |
-| last180d | 2026-03-17 | 14 | 108 | 160 | 73 | 81 | 159 |
-| 360d | 2025-09-18 | 21 | 174 | 196 | 145 | 111 | 257 |
-| last720d | 2024-09-23 | 29 | 268 | 248 | 361 | 220 | 439 |
+| 30d | 2026-08-15 | 2 | 10 | 53 | 5 | 25 | 10 |
+| last60d | 2026-07-16 | 2 | 32 | 86 | 12 | 29 | 38 |
+| 90d | 2026-06-16 | 6 | 51 | 108 | 32 | 41 | 63 |
+| last180d | 2026-03-18 | 14 | 108 | 160 | 72 | 81 | 150 |
+| 360d | 2025-09-19 | 21 | 174 | 196 | 144 | 111 | 254 |
+| last720d | 2024-09-24 | 29 | 268 | 248 | 359 | 219 | 439 |
 
 ## Release assets
 
@@ -74,25 +74,6 @@ Lowest-scoring checks:
 | [nginx-1.31.5.zip](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.zip) | 2.7 MiB | `other` |
 | [nginx-1.31.5.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.zip.asc) | 862 B | `other` |
 
-## Distribution status
-
-Reported by **1177** distros on [repology.org](https://repology.org/project/nginx). **58** are ✅ on the latest upstream release, **704** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.30.4` | ⚠️ outdated |
-| Debian 14 | `1.30.4` | ⚠️ outdated |
-| Debian 13 | `1.26.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
-| Arch | `1.30.4` | 🪦 legacy |
-| Homebrew | `1.31.5` | ✅ latest |
-| Fedora rawhide | `1.30.4` | ⚠️ outdated |
-| Nix unstable | `1.30.4` | 🪦 legacy |
-| Void | `1.30.4` | ⚠️ outdated |
-| Alpine edge | `1.30.4` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.31.4` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `nginx` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -102,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:29:08Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:42:10Z._

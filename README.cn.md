@@ -48,7 +48,7 @@ x install nginx
 
 ## 流行度
 
-- **Star**: 31,627 · **Fork**: 8,301 · **开放 issue**: 628 · **贡献者**: 124
+- **Star**: 31,630 · **Fork**: 8,300 · **开放 issue**: 628 · **贡献者**: 124
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install nginx
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 10 | 54 | 5 | 26 | 16 |
-| last60d | 2026-07-15 | 4 | 34 | 86 | 15 | 29 | 49 |
-| 90d | 2026-06-15 | 6 | 53 | 108 | 35 | 41 | 71 |
-| last180d | 2026-03-17 | 14 | 108 | 160 | 73 | 81 | 159 |
-| 360d | 2025-09-18 | 21 | 174 | 196 | 145 | 111 | 257 |
-| last720d | 2024-09-23 | 29 | 268 | 248 | 361 | 220 | 439 |
+| 30d | 2026-08-15 | 2 | 10 | 53 | 5 | 25 | 10 |
+| last60d | 2026-07-16 | 2 | 32 | 86 | 12 | 29 | 38 |
+| 90d | 2026-06-16 | 6 | 51 | 108 | 32 | 41 | 63 |
+| last180d | 2026-03-18 | 14 | 108 | 160 | 72 | 81 | 150 |
+| 360d | 2025-09-19 | 21 | 174 | 196 | 144 | 111 | 254 |
+| last720d | 2024-09-24 | 29 | 268 | 248 | 359 | 219 | 439 |
 
 ## Release 资产
 
@@ -74,25 +74,6 @@ x install nginx
 | [nginx-1.31.5.zip](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.zip) | 2.7 MiB | `other` |
 | [nginx-1.31.5.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.zip.asc) | 862 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/nginx) 上共有 **1177** 个发行版报告此项目。**58** 个 ✅ 已是最新上游版本，**704** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.30.4` | ⚠️ outdated |
-| Debian 14 | `1.30.4` | ⚠️ outdated |
-| Debian 13 | `1.26.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
-| Arch | `1.30.4` | 🪦 legacy |
-| Homebrew | `1.31.5` | ✅ latest |
-| Fedora rawhide | `1.30.4` | ⚠️ outdated |
-| Nix unstable | `1.30.4` | 🪦 legacy |
-| Void | `1.30.4` | ⚠️ outdated |
-| Alpine edge | `1.30.4` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.31.4` | ⚠️ outdated |
-
 ## 改进这些数据
 
 nginx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `nginx` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -102,4 +83,4 @@ nginx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:29:08Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:42:11Z._
