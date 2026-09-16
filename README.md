@@ -14,19 +14,19 @@ x install nginx
 
 ## Code insight
 
-Total: **216,817** lines of code across **421** files in the top 5 languages.
+Total: **218,570** lines of code across **421** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 173,920 | 6,548 | 58,520 | 270 |
-| Xml | 29,607 | 0 | 2,660 | 2 |
-| CHeader | 10,756 | 1,112 | 5,086 | 141 |
+| C | 173,954 | 6,548 | 58,529 | 270 |
+| Xml | 31,325 | 0 | 1,023 | 2 |
+| CHeader | 10,757 | 1,112 | 5,086 | 141 |
 | VimScript | 1,983 | 4 | 8 | 4 |
 | Perl | 179 | 38 | 64 | 4 |
 
 ## OpenSSF Scorecard
 
-Overall score: **8 / 10**
+Overall score: **8.1 / 10**
 
 Lowest-scoring checks:
 
@@ -42,37 +42,37 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `release-1.31.5` (2026-09-02)
-- **Last commit**: 2026-09-11
+- **Latest**: `release-1.30.5` (2026-09-15)
+- **Last commit**: 2026-09-15
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 31,640 · **Forks**: 8,301 · **Open issues**: 628 · **Contributors**: 124
+- **Stars**: 31,653 · **Forks**: 8,301 · **Open issues**: 629 · **Contributors**: 124
 
 ## Totals (cumulative)
 
-- **Releases**: 29 · **Merged PRs**: 284 · **Open PRs**: 248 · **Closed issues**: 400 · **Open issues**: 228 · **Commits**: 8716
+- **Releases**: 31 · **Merged PRs**: 288 · **Open PRs**: 245 · **Closed issues**: 402 · **Open issues**: 227 · **Commits**: 8720
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 2 | 10 | 52 | 5 | 25 | 10 |
-| last60d | 2026-07-17 | 2 | 31 | 81 | 12 | 29 | 38 |
-| 90d | 2026-06-17 | 6 | 48 | 105 | 31 | 41 | 63 |
-| last180d | 2026-03-19 | 14 | 106 | 156 | 72 | 80 | 150 |
-| 360d | 2025-09-20 | 21 | 174 | 192 | 144 | 111 | 254 |
-| last720d | 2024-09-25 | 29 | 267 | 244 | 357 | 219 | 438 |
+| 30d | 2026-08-17 | 4 | 14 | 48 | 6 | 25 | 0 |
+| last60d | 2026-07-18 | 4 | 35 | 78 | 13 | 29 | 0 |
+| 90d | 2026-06-18 | 6 | 52 | 100 | 31 | 41 | 0 |
+| last180d | 2026-03-20 | 16 | 110 | 151 | 72 | 79 | 0 |
+| 360d | 2025-09-21 | 23 | 178 | 189 | 145 | 111 | 0 |
+| last720d | 2024-09-26 | 31 | 271 | 241 | 359 | 218 | 442 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [nginx-1.31.5.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.tar.gz) | 1.3 MiB | `native/unknown` |
-| [nginx-1.31.5.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.tar.gz.asc) | 862 B | `other` |
-| [nginx-1.31.5.zip](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.zip) | 2.7 MiB | `other` |
-| [nginx-1.31.5.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.5/nginx-1.31.5.zip.asc) | 862 B | `other` |
+| [nginx-1.31.6.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.tar.gz) | 1.3 MiB | `native/unknown` |
+| [nginx-1.31.6.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.tar.gz.asc) | 862 B | `other` |
+| [nginx-1.31.6.zip](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.zip) | 2.7 MiB | `other` |
+| [nginx-1.31.6.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.zip.asc) | 862 B | `other` |
 
 ## Improve this data
 
@@ -83,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:47:06Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:42:01Z._
