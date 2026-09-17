@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.30.5` (2026-09-15)
-- **Last commit**: 2026-09-15
+- **Last commit**: 2026-09-16
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 31,653 · **Forks**: 8,301 · **Open issues**: 629 · **Contributors**: 124
+- **Stars**: 31,661 · **Forks**: 8,302 · **Open issues**: 629 · **Contributors**: 123
 
 ## Totals (cumulative)
 
-- **Releases**: 31 · **Merged PRs**: 288 · **Open PRs**: 245 · **Closed issues**: 402 · **Open issues**: 227 · **Commits**: 8720
+- **Releases**: 31 · **Merged PRs**: 289 · **Open PRs**: 248 · **Closed issues**: 405 · **Open issues**: 224 · **Commits**: 8721
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 4 | 14 | 48 | 6 | 25 | 0 |
-| last60d | 2026-07-18 | 4 | 35 | 78 | 13 | 29 | 0 |
-| 90d | 2026-06-18 | 6 | 52 | 100 | 31 | 41 | 0 |
-| last180d | 2026-03-20 | 16 | 110 | 151 | 72 | 79 | 0 |
-| 360d | 2025-09-21 | 23 | 178 | 189 | 145 | 111 | 0 |
-| last720d | 2024-09-26 | 31 | 271 | 241 | 359 | 218 | 442 |
+| 30d | 2026-08-18 | 4 | 14 | 48 | 6 | 23 | 15 |
+| last60d | 2026-07-19 | 4 | 36 | 80 | 14 | 28 | 43 |
+| 90d | 2026-06-19 | 6 | 53 | 103 | 32 | 40 | 68 |
+| last180d | 2026-03-21 | 16 | 111 | 154 | 72 | 78 | 155 |
+| 360d | 2025-09-22 | 23 | 179 | 192 | 146 | 110 | 259 |
+| last720d | 2024-09-27 | 31 | 272 | 244 | 361 | 214 | 443 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T05:42:01Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T05:45:52Z._
