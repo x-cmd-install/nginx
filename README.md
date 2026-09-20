@@ -4,7 +4,7 @@
 
 The official NGINX Open Source repository.
 
-![nginx](https://repo.x-cmd.io/nginx.svg)
+[![x-cmd/install — nginx Code Quality Monitoring Repo Card](https://repo.x-cmd.io/nginx.svg)](https://x-cmd.com/install/nginx)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,672 · **Forks**: 8,303 · **Open issues**: 629 · **Contributors**: 123
+- **Stars**: 31,691 · **Forks**: 8,307 · **Open issues**: 631 · **Contributors**: 123
 
 ## Totals (cumulative)
 
-- **Releases**: 31 · **Merged PRs**: 289 · **Open PRs**: 249 · **Closed issues**: 408 · **Open issues**: 221 · **Commits**: 8721
+- **Releases**: 31 · **Merged PRs**: 289 · **Open PRs**: 249 · **Closed issues**: 409 · **Open issues**: 222 · **Commits**: 8721
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 4 | 13 | 49 | 6 | 23 | 15 |
-| last60d | 2026-07-20 | 4 | 36 | 79 | 14 | 28 | 43 |
-| 90d | 2026-06-20 | 6 | 53 | 104 | 31 | 40 | 68 |
-| last180d | 2026-03-22 | 16 | 110 | 154 | 72 | 78 | 155 |
-| 360d | 2025-09-23 | 23 | 178 | 193 | 147 | 108 | 259 |
-| last720d | 2024-09-28 | 31 | 272 | 243 | 362 | 211 | 443 |
+| 30d | 2026-08-21 | 3 | 12 | 42 | 5 | 18 | 15 |
+| last60d | 2026-07-22 | 4 | 30 | 72 | 13 | 30 | 43 |
+| 90d | 2026-06-22 | 6 | 50 | 103 | 29 | 42 | 68 |
+| last180d | 2026-03-24 | 16 | 102 | 153 | 72 | 80 | 155 |
+| 360d | 2025-09-25 | 23 | 177 | 192 | 147 | 110 | 259 |
+| last720d | 2024-09-30 | 31 | 271 | 243 | 361 | 212 | 443 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:31:16Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:36:58Z._
