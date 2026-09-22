@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1373124,
       "digest": "sha256:974ed5298a5e398e008704ed5db284e655fc270c596493dbccada452448fc9f1",
-      "download_count": 284,
+      "download_count": 309,
       "created_at": "2026-09-15T15:33:58Z",
       "updated_at": "2026-09-15T15:34:04Z",
       "browser_download_url": "https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 862,
       "digest": "sha256:c7cccb08ba351a283aed845d48afd34d5fae4109c04c7c15391488578cbbe92f",
-      "download_count": 49,
+      "download_count": 52,
       "created_at": "2026-09-15T15:34:04Z",
       "updated_at": "2026-09-15T15:34:05Z",
       "browser_download_url": "https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.tar.gz.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2797070,
       "digest": "sha256:bb65edcfc22a2214a4afaac59f038f560c02b98d4b49c5dca1206d3cc5d631c9",
-      "download_count": 370,
+      "download_count": 461,
       "created_at": "2026-09-15T15:34:05Z",
       "updated_at": "2026-09-15T15:34:09Z",
       "browser_download_url": "https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 862,
       "digest": "sha256:342912b7087898b8a00cbcd37f6d074bb20b2557547da1f3a9837c47a09146c9",
-      "download_count": 32,
+      "download_count": 33,
       "created_at": "2026-09-15T15:34:09Z",
       "updated_at": "2026-09-15T15:34:09Z",
       "browser_download_url": "https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.zip.asc"
