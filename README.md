@@ -4,7 +4,7 @@
 
 The official NGINX Open Source repository.
 
-[![x-cmd/install — nginx Code Quality Monitoring Repo Card](https://repo.x-cmd.io/nginx.svg)](https://x-cmd.com/install/nginx)
+[![x-cmd/install — nginx Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/nginx.svg)](https://x-cmd.com/install/nginx)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,703 · **Forks**: 8,305 · **Open issues**: 635 · **Contributors**: 124
+- **Stars**: 31,712 · **Forks**: 8,306 · **Open issues**: 635 · **Contributors**: 124
 
 ## Totals (cumulative)
 
-- **Releases**: 31 · **Merged PRs**: 289 · **Open PRs**: 249 · **Closed issues**: 413 · **Open issues**: 222 · **Commits**: 8721
+- **Releases**: 31 · **Merged PRs**: 289 · **Open PRs**: 250 · **Closed issues**: 418 · **Open issues**: 217 · **Commits**: 8721
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 3 | 12 | 39 | 5 | 22 | 14 |
-| last60d | 2026-07-24 | 4 | 29 | 73 | 12 | 34 | 37 |
-| 90d | 2026-06-24 | 6 | 50 | 103 | 24 | 42 | 63 |
-| last180d | 2026-03-26 | 14 | 102 | 150 | 72 | 84 | 150 |
-| 360d | 2025-09-27 | 23 | 177 | 191 | 146 | 113 | 257 |
-| last720d | 2024-10-02 | 31 | 270 | 243 | 363 | 211 | 437 |
+| 30d | 2026-08-24 | 3 | 12 | 38 | 5 | 21 | 14 |
+| last60d | 2026-07-25 | 4 | 29 | 74 | 12 | 34 | 37 |
+| 90d | 2026-06-25 | 6 | 50 | 104 | 24 | 41 | 63 |
+| last180d | 2026-03-27 | 14 | 102 | 150 | 72 | 84 | 150 |
+| 360d | 2025-09-28 | 23 | 177 | 192 | 146 | 113 | 257 |
+| last720d | 2024-10-03 | 31 | 270 | 244 | 368 | 206 | 435 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:44:09Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:52:15Z._
