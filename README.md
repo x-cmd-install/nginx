@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,772 · **Forks**: 8,309 · **Open issues**: 641 · **Contributors**: 124
+- **Stars**: 31,777 · **Forks**: 8,310 · **Open issues**: 641 · **Contributors**: 124
 
 ## Totals (cumulative)
 
-- **Releases**: 31 · **Merged PRs**: 297 · **Open PRs**: 257 · **Closed issues**: 447 · **Open issues**: 194 · **Commits**: 8738
+- **Releases**: 31 · **Merged PRs**: 297 · **Open PRs**: 258 · **Closed issues**: 450 · **Open issues**: 191 · **Commits**: 8738
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 3 | 13 | 44 | 7 | 22 | 26 |
-| last60d | 2026-08-02 | 4 | 32 | 79 | 15 | 34 | 52 |
-| 90d | 2026-07-03 | 6 | 53 | 110 | 27 | 38 | 73 |
-| last180d | 2026-04-04 | 14 | 107 | 154 | 79 | 75 | 160 |
-| 360d | 2025-10-06 | 23 | 184 | 201 | 153 | 108 | 267 |
-| last720d | 2024-10-11 | 31 | 272 | 251 | 386 | 186 | 450 |
+| 30d | 2026-09-02 | 3 | 13 | 42 | 6 | 22 | 26 |
+| last60d | 2026-08-03 | 4 | 32 | 81 | 15 | 34 | 52 |
+| 90d | 2026-07-04 | 6 | 53 | 112 | 26 | 38 | 73 |
+| last180d | 2026-04-05 | 14 | 106 | 154 | 78 | 74 | 160 |
+| 360d | 2025-10-07 | 23 | 183 | 201 | 153 | 108 | 267 |
+| last720d | 2024-10-12 | 31 | 272 | 252 | 389 | 183 | 450 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T06:35:34Z._
+_Snapshot: `data/card/261002.yml` · 2026-10-02T06:16:50Z._
