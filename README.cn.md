@@ -14,13 +14,13 @@ x install nginx
 
 ## 代码洞察
 
-合计: **221,231** 行代码（覆盖前 5 种语言、共 **424** 个文件）。
+合计: **221,484** 行代码（覆盖前 5 种语言、共 **424** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 176,568 | 6,632 | 59,291 | 271 |
-| Xml | 31,325 | 0 | 1,023 | 2 |
-| CHeader | 10,804 | 1,119 | 5,118 | 143 |
+| C | 176,613 | 6,637 | 59,300 | 271 |
+| Xml | 31,531 | 0 | 1,040 | 2 |
+| CHeader | 10,806 | 1,119 | 5,118 | 143 |
 | VimScript | 1,983 | 4 | 8 | 4 |
 | Perl | 179 | 38 | 64 | 4 |
 
@@ -42,37 +42,37 @@ x install nginx
 
 ## 发布
 
-- **最新版本**: `release-1.30.5` (2026-09-15)
-- **最近提交**: 2026-09-30
+- **最新版本**: `release-1.30.6` (2026-10-14)
+- **最近提交**: 2026-10-01
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 31,884 · **Fork**: 8,313 · **开放 issue**: 649 · **贡献者**: 123
+- **Star**: 31,892 · **Fork**: 8,310 · **开放 issue**: 649 · **贡献者**: 123
 
 ## 累计统计
 
-- **发布数**: 31 · **已合并 PR**: 297 · **开放 PR**: 266 · **已关闭 issue**: 473 · **开放 issue**: 176 · **提交数**: 8738
+- **发布数**: 33 · **已合并 PR**: 297 · **开放 PR**: 268 · **已关闭 issue**: 479 · **开放 issue**: 170 · **提交数**: 8745
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 2 | 6 | 35 | 6 | 14 | 11 |
-| last60d | 2026-08-15 | 4 | 19 | 82 | 13 | 37 | 33 |
-| 90d | 2026-07-16 | 4 | 42 | 108 | 21 | 40 | 62 |
-| last180d | 2026-04-17 | 12 | 94 | 160 | 77 | 75 | 145 |
-| 360d | 2025-10-19 | 22 | 181 | 207 | 156 | 108 | 263 |
-| last720d | 2024-10-24 | 31 | 270 | 260 | 400 | 165 | 448 |
+| 30d | 2026-09-15 | 4 | 3 | 37 | 7 | 12 | 12 |
+| last60d | 2026-08-16 | 6 | 19 | 82 | 15 | 35 | 34 |
+| 90d | 2026-07-17 | 6 | 41 | 108 | 23 | 38 | 67 |
+| last180d | 2026-04-18 | 14 | 94 | 162 | 81 | 71 | 151 |
+| 360d | 2025-10-20 | 24 | 181 | 209 | 160 | 104 | 269 |
+| last720d | 2024-10-25 | 33 | 270 | 262 | 405 | 159 | 455 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [nginx-1.31.6.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.tar.gz) | 1.3 MiB | `native/unknown` |
-| [nginx-1.31.6.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.tar.gz.asc) | 862 B | `other` |
-| [nginx-1.31.6.zip](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.zip) | 2.7 MiB | `other` |
-| [nginx-1.31.6.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.6/nginx-1.31.6.zip.asc) | 862 B | `other` |
+| [nginx-1.31.7.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.7/nginx-1.31.7.tar.gz) | 1.3 MiB | `native/unknown` |
+| [nginx-1.31.7.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.7/nginx-1.31.7.tar.gz.asc) | 862 B | `other` |
+| [nginx-1.31.7.zip](https://github.com/nginx/nginx/releases/download/release-1.31.7/nginx-1.31.7.zip) | 2.7 MiB | `other` |
+| [nginx-1.31.7.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.7/nginx-1.31.7.zip.asc) | 862 B | `other` |
 
 ## 改进这些数据
 
@@ -83,4 +83,4 @@ nginx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T05:26:27Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T05:10:50Z._
