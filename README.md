@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,960 · **Forks**: 8,282 · **Open issues**: 655 · **Contributors**: 126
+- **Stars**: 31,972 · **Forks**: 8,294 · **Open issues**: 656 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 319 · **Open PRs**: 286 · **Closed issues**: 492 · **Open issues**: 163 · **Commits**: 8770
+- **Releases**: 34 · **Merged PRs**: 319 · **Open PRs**: 287 · **Closed issues**: 492 · **Open issues**: 164 · **Commits**: 8770
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 3 | 18 | 55 | 6 | 11 | 24 |
-| last60d | 2026-08-26 | 6 | 35 | 88 | 15 | 30 | 51 |
-| 90d | 2026-07-27 | 7 | 53 | 120 | 21 | 42 | 79 |
-| last180d | 2026-04-28 | 15 | 114 | 177 | 80 | 75 | 166 |
-| 360d | 2025-10-30 | 24 | 196 | 227 | 156 | 107 | 288 |
-| last720d | 2024-11-04 | 33 | 291 | 278 | 413 | 150 | 479 |
+| 30d | 2026-09-26 | 3 | 18 | 56 | 6 | 12 | 11 |
+| last60d | 2026-08-27 | 6 | 35 | 87 | 15 | 31 | 48 |
+| 90d | 2026-07-28 | 7 | 52 | 118 | 21 | 43 | 76 |
+| last180d | 2026-04-29 | 15 | 112 | 177 | 80 | 76 | 158 |
+| 360d | 2025-10-31 | 24 | 196 | 228 | 156 | 108 | 285 |
+| last720d | 2024-11-05 | 33 | 291 | 279 | 412 | 151 | 479 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **1160** distros on [repology.org](https://repology.org/project/nginx). **38** are ✅ on the latest upstream release, **709** are ⚠️ on an older version.
+Reported by **1159** distros on [repology.org](https://repology.org/project/nginx). **42** are ✅ on the latest upstream release, **704** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,7 +89,7 @@ Reported by **1160** distros on [repology.org](https://repology.org/project/ngin
 | Homebrew | `1.31.8` | ✅ latest |
 | Fedora rawhide | `1.30.4` | ⚠️ outdated |
 | Nix unstable | `1.30.6` | 🪦 legacy |
-| Void | `1.30.5` | ⚠️ outdated |
+| Void | `1.30.6` | ⚠️ outdated |
 | Alpine edge | `1.30.6` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.31.7` | ⚠️ outdated |
 
@@ -102,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:13:16Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:16:48Z._
