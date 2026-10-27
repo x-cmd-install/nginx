@@ -26,13 +26,13 @@ Total: **220,421** lines of code across **420** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7.7 / 10**
+Overall score: **7.8 / 10**
 
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,972 · **Forks**: 8,294 · **Open issues**: 656 · **Contributors**: 126
+- **Stars**: 31,978 · **Forks**: 8,311 · **Open issues**: 657 · **Contributors**: 126
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 319 · **Open PRs**: 287 · **Closed issues**: 492 · **Open issues**: 164 · **Commits**: 8770
+- **Releases**: 34 · **Merged PRs**: 319 · **Open PRs**: 289 · **Closed issues**: 494 · **Open issues**: 163 · **Commits**: 8770
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 3 | 18 | 56 | 6 | 12 | 11 |
-| last60d | 2026-08-27 | 6 | 35 | 87 | 15 | 31 | 48 |
-| 90d | 2026-07-28 | 7 | 52 | 118 | 21 | 43 | 76 |
-| last180d | 2026-04-29 | 15 | 112 | 177 | 80 | 76 | 158 |
-| 360d | 2025-10-31 | 24 | 196 | 228 | 156 | 108 | 285 |
-| last720d | 2024-11-05 | 33 | 291 | 279 | 412 | 151 | 479 |
+| 30d | 2026-09-27 | 3 | 18 | 58 | 4 | 13 | 11 |
+| last60d | 2026-08-28 | 6 | 34 | 87 | 14 | 32 | 48 |
+| 90d | 2026-07-29 | 7 | 52 | 120 | 21 | 44 | 76 |
+| last180d | 2026-04-30 | 15 | 110 | 179 | 80 | 77 | 158 |
+| 360d | 2025-11-01 | 24 | 196 | 230 | 156 | 108 | 285 |
+| last720d | 2024-11-06 | 33 | 291 | 281 | 410 | 152 | 479 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **1159** distros on [repology.org](https://repology.org/project/nginx). **42** are ✅ on the latest upstream release, **704** are ⚠️ on an older version.
+Reported by **1160** distros on [repology.org](https://repology.org/project/nginx). **43** are ✅ on the latest upstream release, **704** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,7 +91,7 @@ Reported by **1159** distros on [repology.org](https://repology.org/project/ngin
 | Nix unstable | `1.30.6` | 🪦 legacy |
 | Void | `1.30.6` | ⚠️ outdated |
 | Alpine edge | `1.30.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.31.7` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.31.8` | ✅ latest |
 
 ## Improve this data
 
@@ -102,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:16:48Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:37:16Z._
