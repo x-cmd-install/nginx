@@ -14,11 +14,11 @@ x install nginx
 
 ## Code insight
 
-Total: **220,430** lines of code across **420** files in the top 5 languages.
+Total: **220,392** lines of code across **420** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 175,651 | 6,557 | 58,962 | 268 |
+| C | 175,613 | 6,557 | 58,957 | 268 |
 | Xml | 31,602 | 0 | 1,049 | 2 |
 | CHeader | 10,646 | 1,112 | 5,057 | 142 |
 | VimScript | 1,980 | 4 | 8 | 4 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.31.8` (2026-10-21)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-10-28
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 31,989 · **Forks**: 8,331 · **Open issues**: 658 · **Contributors**: 126
+- **Stars**: 32,002 · **Forks**: 8,342 · **Open issues**: 660 · **Contributors**: 127
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 320 · **Open PRs**: 289 · **Closed issues**: 499 · **Open issues**: 159 · **Commits**: 8771
+- **Releases**: 34 · **Merged PRs**: 323 · **Open PRs**: 287 · **Closed issues**: 503 · **Open issues**: 157 · **Commits**: 8776
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 3 | 18 | 60 | 4 | 12 | 11 |
-| last60d | 2026-08-29 | 6 | 35 | 90 | 16 | 30 | 49 |
-| 90d | 2026-07-30 | 7 | 53 | 122 | 23 | 42 | 77 |
-| last180d | 2026-05-01 | 15 | 111 | 179 | 82 | 75 | 159 |
-| 360d | 2025-11-02 | 24 | 197 | 230 | 157 | 107 | 286 |
-| last720d | 2024-11-07 | 33 | 292 | 281 | 414 | 148 | 480 |
+| 30d | 2026-09-29 | 3 | 18 | 56 | 6 | 12 | 15 |
+| last60d | 2026-08-30 | 6 | 38 | 90 | 18 | 30 | 53 |
+| 90d | 2026-07-31 | 7 | 56 | 122 | 25 | 42 | 81 |
+| last180d | 2026-05-02 | 15 | 114 | 177 | 85 | 74 | 163 |
+| 360d | 2025-11-03 | 24 | 200 | 229 | 160 | 106 | 290 |
+| last720d | 2024-11-08 | 33 | 295 | 279 | 415 | 146 | 479 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **1160** distros on [repology.org](https://repology.org/project/nginx). **44** are ✅ on the latest upstream release, **703** are ⚠️ on an older version.
+Reported by **1158** distros on [repology.org](https://repology.org/project/nginx). **46** are ✅ on the latest upstream release, **700** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:13:37Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:21:14Z._
