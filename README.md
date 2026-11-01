@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,017 · **Forks**: 8,370 · **Open issues**: 660 · **Contributors**: 127
+- **Stars**: 32,024 · **Forks**: 8,391 · **Open issues**: 664 · **Contributors**: 127
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 323 · **Open PRs**: 288 · **Closed issues**: 503 · **Open issues**: 157 · **Commits**: 8776
+- **Releases**: 34 · **Merged PRs**: 323 · **Open PRs**: 293 · **Closed issues**: 503 · **Open issues**: 161 · **Commits**: 8776
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 3 | 14 | 54 | 6 | 12 | 15 |
-| last60d | 2026-09-01 | 6 | 36 | 89 | 17 | 30 | 53 |
-| 90d | 2026-08-02 | 7 | 56 | 122 | 25 | 42 | 81 |
-| last180d | 2026-05-04 | 15 | 113 | 178 | 85 | 74 | 163 |
-| 360d | 2025-11-05 | 24 | 199 | 230 | 160 | 106 | 290 |
-| last720d | 2024-11-10 | 33 | 295 | 280 | 413 | 146 | 479 |
+| 30d | 2026-10-02 | 3 | 13 | 58 | 6 | 15 | 15 |
+| last60d | 2026-09-02 | 6 | 35 | 91 | 16 | 34 | 53 |
+| 90d | 2026-08-03 | 7 | 56 | 127 | 25 | 46 | 81 |
+| last180d | 2026-05-05 | 15 | 111 | 182 | 85 | 78 | 163 |
+| 360d | 2025-11-06 | 24 | 197 | 235 | 158 | 110 | 290 |
+| last720d | 2024-11-11 | 33 | 294 | 285 | 413 | 150 | 479 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **1159** distros on [repology.org](https://repology.org/project/nginx). **47** are ✅ on the latest upstream release, **700** are ⚠️ on an older version.
+Reported by **1158** distros on [repology.org](https://repology.org/project/nginx). **46** are ✅ on the latest upstream release, **700** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:22:31Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:40:46Z._
