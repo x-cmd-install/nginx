@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,068 · **Forks**: 8,389 · **Open issues**: 669 · **Contributors**: 129
+- **Stars**: 32,076 · **Forks**: 8,391 · **Open issues**: 669 · **Contributors**: 129
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 3 | 20 | 64 | 9 | 15 | 17 |
-| last60d | 2026-09-08 | 5 | 41 | 92 | 18 | 30 | 55 |
-| 90d | 2026-08-09 | 7 | 60 | 131 | 28 | 47 | 87 |
-| last180d | 2026-05-11 | 15 | 117 | 189 | 82 | 72 | 168 |
-| 360d | 2025-11-12 | 24 | 205 | 239 | 164 | 107 | 296 |
-| last720d | 2024-11-17 | 33 | 301 | 291 | 416 | 145 | 485 |
+| 30d | 2026-10-09 | 3 | 19 | 64 | 9 | 15 | 17 |
+| last60d | 2026-09-09 | 5 | 39 | 90 | 16 | 24 | 55 |
+| 90d | 2026-08-10 | 7 | 58 | 130 | 28 | 46 | 87 |
+| last180d | 2026-05-12 | 15 | 117 | 189 | 82 | 72 | 168 |
+| 360d | 2025-11-13 | 24 | 205 | 239 | 164 | 107 | 296 |
+| last720d | 2024-11-18 | 33 | 300 | 291 | 415 | 145 | 485 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **1182** distros on [repology.org](https://repology.org/project/nginx). **62** are ✅ on the latest upstream release, **700** are ⚠️ on an older version.
+Reported by **1181** distros on [repology.org](https://repology.org/project/nginx). **62** are ✅ on the latest upstream release, **699** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:31:16Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:34:37Z._
