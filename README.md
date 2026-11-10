@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.31.8` (2026-10-21)
-- **Last commit**: 2026-11-06
+- **Last commit**: 2026-11-09
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 32,082 · **Forks**: 8,393 · **Open issues**: 669 · **Contributors**: 129
+- **Stars**: 32,089 · **Forks**: 8,394 · **Open issues**: 669 · **Contributors**: 129
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 332 · **Open PRs**: 299 · **Closed issues**: 512 · **Open issues**: 157 · **Commits**: 8787
+- **Releases**: 34 · **Merged PRs**: 333 · **Open PRs**: 301 · **Closed issues**: 514 · **Open issues**: 155 · **Commits**: 8788
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 3 | 19 | 64 | 9 | 14 | 13 |
-| last60d | 2026-09-10 | 5 | 37 | 87 | 16 | 24 | 47 |
-| 90d | 2026-08-11 | 7 | 55 | 130 | 28 | 46 | 73 |
-| last180d | 2026-05-13 | 15 | 114 | 189 | 81 | 71 | 161 |
-| 360d | 2025-11-14 | 24 | 203 | 239 | 164 | 107 | 294 |
-| last720d | 2024-11-19 | 33 | 299 | 290 | 414 | 145 | 484 |
+| 30d | 2026-10-11 | 3 | 20 | 66 | 10 | 13 | 14 |
+| last60d | 2026-09-11 | 5 | 37 | 88 | 18 | 22 | 48 |
+| 90d | 2026-08-12 | 7 | 54 | 131 | 30 | 44 | 74 |
+| last180d | 2026-05-14 | 13 | 111 | 191 | 83 | 68 | 162 |
+| 360d | 2025-11-15 | 24 | 204 | 241 | 164 | 105 | 295 |
+| last720d | 2024-11-20 | 33 | 299 | 292 | 412 | 143 | 484 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:14:42Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:17:03Z._
