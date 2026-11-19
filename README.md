@@ -14,25 +14,15 @@ x install nginx
 
 ## Code insight
 
-Total: **220,430** lines of code across **420** files in the top 5 languages.
+Total: **220,882** lines of code across **420** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 175,648 | 6,559 | 58,973 | 268 |
-| Xml | 31,602 | 0 | 1,049 | 2 |
-| CHeader | 10,649 | 1,113 | 5,058 | 142 |
+| C | 175,808 | 6,562 | 59,028 | 268 |
+| Xml | 31,893 | 0 | 1,072 | 2 |
+| CHeader | 10,650 | 1,113 | 5,058 | 142 |
 | VimScript | 1,980 | 4 | 8 | 4 |
 | Perl | 179 | 38 | 64 | 4 |
-
-## OpenSSF Scorecard
-
-Overall score: **7.9 / 10**
-
-Lowest-scoring checks:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -42,41 +32,41 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `release-1.31.8` (2026-10-21)
-- **Last commit**: 2026-11-09
+- **Latest**: `release-1.30.7` (2026-11-18)
+- **Last commit**: 2026-11-18
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 32,142 · **Forks**: 8,397 · **Open issues**: 677 · **Contributors**: 129
+- **Stars**: 32,210 · **Forks**: 8,407 · **Open issues**: 682 · **Contributors**: 129
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 333 · **Open PRs**: 323 · **Closed issues**: 516 · **Open issues**: 161 · **Commits**: 8788
+- **Releases**: 36 · **Merged PRs**: 334 · **Open PRs**: 326 · **Closed issues**: 524 · **Open issues**: 158 · **Commits**: 8807
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 19 | 85 | 7 | 18 | 8 |
-| last60d | 2026-09-18 | 3 | 32 | 110 | 18 | 29 | 41 |
-| 90d | 2026-08-19 | 7 | 49 | 149 | 27 | 49 | 66 |
-| last180d | 2026-05-21 | 13 | 109 | 209 | 79 | 71 | 155 |
-| 360d | 2025-11-22 | 24 | 204 | 261 | 157 | 111 | 292 |
-| last720d | 2024-11-27 | 32 | 292 | 313 | 406 | 149 | 472 |
+| 30d | 2026-10-20 | 3 | 14 | 63 | 11 | 19 | 21 |
+| last60d | 2026-09-20 | 5 | 33 | 112 | 22 | 28 | 56 |
+| 90d | 2026-08-21 | 8 | 49 | 146 | 29 | 44 | 83 |
+| last180d | 2026-05-23 | 13 | 107 | 211 | 83 | 72 | 173 |
+| 360d | 2025-11-24 | 26 | 204 | 264 | 161 | 111 | 310 |
+| last720d | 2024-11-29 | 34 | 293 | 316 | 412 | 145 | 490 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [nginx-1.31.8.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.8/nginx-1.31.8.tar.gz) | 1.3 MiB | `native/unknown` |
-| [nginx-1.31.8.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.8/nginx-1.31.8.tar.gz.asc) | 862 B | `other` |
-| [nginx-1.31.8.zip](https://github.com/nginx/nginx/releases/download/release-1.31.8/nginx-1.31.8.zip) | 2.7 MiB | `other` |
-| [nginx-1.31.8.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.8/nginx-1.31.8.zip.asc) | 862 B | `other` |
+| [nginx-1.31.9.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.tar.gz) | 1.3 MiB | `native/unknown` |
+| [nginx-1.31.9.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.tar.gz.asc) | 898 B | `other` |
+| [nginx-1.31.9.zip](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.zip) | 2.7 MiB | `other` |
+| [nginx-1.31.9.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.zip.asc) | 898 B | `other` |
 
 ## Distribution status
 
-Reported by **1153** distros on [repology.org](https://repology.org/project/nginx). **55** are ✅ on the latest upstream release, **700** are ⚠️ on an older version.
+Reported by **1150** distros on [repology.org](https://repology.org/project/nginx). **21** are ✅ on the latest upstream release, **801** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -85,13 +75,13 @@ Reported by **1153** distros on [repology.org](https://repology.org/project/ngin
 | Debian 13 | `1.26.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
-| Arch | `1.30.6` | 🪦 legacy |
-| Homebrew | `1.31.8` | ✅ latest |
+| Arch | `1.31.9` | ✅ latest |
+| Homebrew | `1.31.9` | ✅ latest |
 | Fedora rawhide | `1.30.4` | ⚠️ outdated |
-| Nix unstable | `1.30.6` | 🪦 legacy |
-| Void | `1.30.6` | ⚠️ outdated |
-| Alpine edge | `1.30.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.31.8` | ✅ latest |
+| Nix unstable | `1.30.6` | ⚠️ outdated |
+| Void | `1.30.7` | ⚠️ outdated |
+| Alpine edge | `1.30.7` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.31.8` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -102,4 +92,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:19:01Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:35:50Z._
