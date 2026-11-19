@@ -1,0 +1,162 @@
+about:
+  description: "The official NGINX Open Source repository."
+  license: BSD-2-Clause
+  homepage: https://nginx.org/
+  head: 2e8440b
+  archived: false
+  latestVersion: "release-1.30.7"
+  latestRelease: "release-1.30.7"
+  latestPrerelease: ""
+  collectedAt: 2026-11-19T09:35:34Z
+timeline:
+  created: 2015-06-23
+  lastCommit: 2026-11-18
+  lastVersion: 2026-11-18
+  lastRelease: 2026-11-18
+  lastPrerelease: 
+popularity:
+  star: 32210
+  watcher: 942
+  fork: 8407
+  release: 36
+  contributor: 129
+  pullRequest: 1067
+  issue: 682
+language:
+  C: 6803228
+  Vim Script: 113884
+  XS: 26623
+  Perl: 6774
+  Makefile: 4831
+  IL Assembly: 2947
+  Shell: 2314
+  C++: 592
+totalBytes: 6961193
+recent:
+  last30d:
+    since: 2026-10-20
+    release: 3
+    mergedPR: 14
+    openPR: 63
+    closedIssue: 11
+    openIssue: 19
+    commit: 21
+  last60d:
+    since: 2026-09-20
+    release: 5
+    mergedPR: 33
+    openPR: 112
+    closedIssue: 22
+    openIssue: 28
+    commit: 56
+  last90d:
+    since: 2026-08-21
+    release: 8
+    mergedPR: 49
+    openPR: 146
+    closedIssue: 29
+    openIssue: 44
+    commit: 83
+  last180d:
+    since: 2026-05-23
+    release: 13
+    mergedPR: 107
+    openPR: 211
+    closedIssue: 83
+    openIssue: 72
+    commit: 173
+  last360d:
+    since: 2025-11-24
+    release: 26
+    mergedPR: 204
+    openPR: 264
+    closedIssue: 161
+    openIssue: 111
+    commit: 310
+  last720d:
+    since: 2024-11-29
+    release: 34
+    mergedPR: 293
+    openPR: 316
+    closedIssue: 412
+    openIssue: 145
+    commit: 490
+total:
+  release: 36
+  mergedPR: 334
+  openPR: 326
+  closedIssue: 524
+  openIssue: 158
+  commit: 8807
+---
+path: /home/runner/.x-repo/github.com/nginx/nginx
+collectedAt: 2026-11-19T09:35:42Z
+loc:
+  C:
+    code: 175808
+    comments: 6562
+    blanks: 59028
+    files: 268
+  Xml:
+    code: 31893
+    comments: 0
+    blanks: 1072
+    files: 2
+  CHeader:
+    code: 10650
+    comments: 1113
+    blanks: 5058
+    files: 142
+  VimScript:
+    code: 1980
+    comments: 4
+    blanks: 8
+    files: 4
+  Perl:
+    code: 179
+    comments: 38
+    blanks: 64
+    files: 4
+  Sh:
+    code: 164
+    comments: 10
+    blanks: 60
+    files: 2
+  XSL:
+    code: 89
+    comments: 0
+    blanks: 39
+    files: 1
+  Bitbake:
+    code: 42
+    comments: 64
+    blanks: 35
+    files: 2
+  Html:
+    code: 38
+    comments: 0
+    blanks: 2
+    files: 2
+  Makefile:
+    code: 20
+    comments: 1
+    blanks: 12
+    files: 1
+  Cpp:
+    code: 19
+    comments: 3
+    blanks: 9
+    files: 1
+  Markdown:
+    code: 0
+    comments: 438
+    blanks: 170
+    files: 5
+total:
+  code: 220905
+  comments: 8234
+  blanks: 65558
+  files: 434
+---
+
+---
