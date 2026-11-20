@@ -24,6 +24,16 @@ x install nginx
 | VimScript | 1,980 | 4 | 8 | 4 |
 | Perl | 179 | 38 | 64 | 4 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **7.9 / 10**
+
+评分最低的几项:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/nginx/nginx>
@@ -38,22 +48,22 @@ x install nginx
 
 ## 流行度
 
-- **Star**: 32,210 · **Fork**: 8,407 · **开放 issue**: 682 · **贡献者**: 129
+- **Star**: 32,423 · **Fork**: 8,422 · **开放 issue**: 682 · **贡献者**: 129
 
 ## 累计统计
 
-- **发布数**: 36 · **已合并 PR**: 334 · **开放 PR**: 326 · **已关闭 issue**: 524 · **开放 issue**: 158 · **提交数**: 8807
+- **发布数**: 36 · **已合并 PR**: 334 · **开放 PR**: 327 · **已关闭 issue**: 525 · **开放 issue**: 157 · **提交数**: 8807
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 3 | 14 | 63 | 11 | 19 | 21 |
-| last60d | 2026-09-20 | 5 | 33 | 112 | 22 | 28 | 56 |
-| 90d | 2026-08-21 | 8 | 49 | 146 | 29 | 44 | 83 |
-| last180d | 2026-05-23 | 13 | 107 | 211 | 83 | 72 | 173 |
-| 360d | 2025-11-24 | 26 | 204 | 264 | 161 | 111 | 310 |
-| last720d | 2024-11-29 | 34 | 293 | 316 | 412 | 145 | 490 |
+| 30d | 2026-10-21 | 3 | 13 | 62 | 12 | 18 | 21 |
+| last60d | 2026-09-21 | 5 | 33 | 112 | 22 | 26 | 56 |
+| 90d | 2026-08-22 | 8 | 49 | 147 | 30 | 43 | 83 |
+| last180d | 2026-05-24 | 13 | 107 | 212 | 84 | 71 | 173 |
+| 360d | 2025-11-25 | 26 | 204 | 263 | 161 | 110 | 310 |
+| last720d | 2024-11-30 | 34 | 293 | 317 | 413 | 144 | 490 |
 
 ## Release 资产
 
@@ -66,7 +76,7 @@ x install nginx
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/nginx) 上共有 **1150** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**801** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/nginx) 上共有 **1152** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**777** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -75,10 +85,10 @@ x install nginx
 | Debian 13 | `1.26.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
-| Arch | `1.31.9` | ✅ latest |
+| Arch | `1.30.7` | 🪦 legacy |
 | Homebrew | `1.31.9` | ✅ latest |
 | Fedora rawhide | `1.30.4` | ⚠️ outdated |
-| Nix unstable | `1.30.6` | ⚠️ outdated |
+| Nix unstable | `1.30.7` | 🪦 legacy |
 | Void | `1.30.7` | ⚠️ outdated |
 | Alpine edge | `1.30.7` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.31.8` | ⚠️ outdated |
@@ -92,4 +102,4 @@ nginx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261119.yml` · 2026-11-19T09:35:51Z._
+_数据快照: `data/card/261120.yml` · 2026-11-20T07:53:58Z._
