@@ -24,6 +24,16 @@ Total: **220,882** lines of code across **420** files in the top 5 languages.
 | VimScript | 1,980 | 4 | 8 | 4 |
 | Perl | 179 | 38 | 64 | 4 |
 
+## OpenSSF Scorecard
+
+Overall score: **7.9 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
 ## Source
 
 - **Upstream**: <https://github.com/nginx/nginx>
@@ -38,22 +48,22 @@ Total: **220,882** lines of code across **420** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 32,630 · **Forks**: 8,371 · **Open issues**: 682 · **Contributors**: 129
+- **Stars**: 32,780 · **Forks**: 8,376 · **Open issues**: 684 · **Contributors**: 129
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 334 · **Open PRs**: 330 · **Closed issues**: 525 · **Open issues**: 157 · **Commits**: 8807
+- **Releases**: 36 · **Merged PRs**: 334 · **Open PRs**: 331 · **Closed issues**: 525 · **Open issues**: 159 · **Commits**: 8807
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 2 | 11 | 66 | 9 | 18 | 21 |
-| last60d | 2026-09-22 | 5 | 33 | 115 | 22 | 26 | 56 |
-| 90d | 2026-08-23 | 8 | 49 | 149 | 30 | 43 | 83 |
-| last180d | 2026-05-25 | 13 | 107 | 216 | 83 | 71 | 173 |
-| 360d | 2025-11-26 | 26 | 204 | 266 | 161 | 110 | 310 |
-| last720d | 2024-12-01 | 34 | 293 | 320 | 413 | 144 | 490 |
+| 30d | 2026-10-23 | 2 | 10 | 66 | 9 | 20 | 21 |
+| last60d | 2026-09-23 | 5 | 32 | 116 | 22 | 28 | 56 |
+| 90d | 2026-08-24 | 8 | 49 | 148 | 30 | 44 | 83 |
+| last180d | 2026-05-26 | 13 | 107 | 217 | 82 | 73 | 173 |
+| 360d | 2025-11-27 | 26 | 204 | 267 | 160 | 112 | 310 |
+| last720d | 2024-12-02 | 34 | 293 | 320 | 413 | 146 | 490 |
 
 ## Release assets
 
@@ -66,7 +76,7 @@ Total: **220,882** lines of code across **420** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **1160** distros on [repology.org](https://repology.org/project/nginx). **35** are ✅ on the latest upstream release, **777** are ⚠️ on an older version.
+Reported by **1160** distros on [repology.org](https://repology.org/project/nginx). **36** are ✅ on the latest upstream release, **776** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,9 +85,9 @@ Reported by **1160** distros on [repology.org](https://repology.org/project/ngin
 | Debian 13 | `1.26.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
-| Arch | `1.31.9` | ✅ latest |
+| Arch | `1.30.7` | 🪦 legacy |
 | Homebrew | `1.31.9` | ✅ latest |
-| Fedora rawhide | `1.30.4` | ⚠️ outdated |
+| Fedora rawhide | `1.30.7` | ⚠️ outdated |
 | Nix unstable | `1.30.7` | 🪦 legacy |
 | Void | `1.30.7` | ⚠️ outdated |
 | Alpine edge | `1.30.7` | ⚠️ outdated |
@@ -92,4 +102,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:34:55Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:30:07Z._
