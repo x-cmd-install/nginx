@@ -14,25 +14,15 @@ x install nginx
 
 ## 代码洞察
 
-合计: **220,882** 行代码（覆盖前 5 种语言、共 **420** 个文件）。
+合计: **220,906** 行代码（覆盖前 5 种语言、共 **420** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 175,808 | 6,562 | 59,028 | 268 |
-| Xml | 31,893 | 0 | 1,072 | 2 |
+| C | 175,810 | 6,562 | 59,029 | 268 |
+| Xml | 31,915 | 0 | 1,077 | 2 |
 | CHeader | 10,650 | 1,113 | 5,058 | 142 |
 | VimScript | 1,980 | 4 | 8 | 4 |
 | Perl | 179 | 38 | 64 | 4 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **7.9 / 10**
-
-评分最低的几项:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -42,41 +32,41 @@ x install nginx
 
 ## 发布
 
-- **最新版本**: `release-1.30.7` (2026-11-18)
-- **最近提交**: 2026-11-18
+- **最新版本**: `release-1.30.8` (2026-11-23)
+- **最近提交**: 2026-11-19
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 32,938 · **Fork**: 8,393 · **开放 issue**: 684 · **贡献者**: 129
+- **Star**: 33,122 · **Fork**: 8,392 · **开放 issue**: 688 · **贡献者**: 129
 
 ## 累计统计
 
-- **发布数**: 36 · **已合并 PR**: 334 · **开放 PR**: 335 · **已关闭 issue**: 525 · **开放 issue**: 159 · **提交数**: 8807
+- **发布数**: 38 · **已合并 PR**: 334 · **开放 PR**: 331 · **已关闭 issue**: 530 · **开放 issue**: 158 · **提交数**: 8810
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 2 | 10 | 69 | 9 | 20 | 12 |
-| last60d | 2026-09-24 | 5 | 32 | 120 | 20 | 26 | 42 |
-| 90d | 2026-08-25 | 8 | 49 | 151 | 30 | 44 | 81 |
-| last180d | 2026-05-27 | 13 | 107 | 221 | 82 | 73 | 171 |
-| 360d | 2025-11-28 | 26 | 204 | 271 | 159 | 112 | 305 |
-| last720d | 2024-12-03 | 34 | 293 | 324 | 411 | 146 | 490 |
+| 30d | 2026-10-25 | 4 | 9 | 65 | 13 | 19 | 15 |
+| last60d | 2026-09-25 | 7 | 31 | 115 | 25 | 25 | 45 |
+| 90d | 2026-08-26 | 10 | 49 | 146 | 35 | 43 | 84 |
+| last180d | 2026-05-28 | 15 | 107 | 217 | 86 | 71 | 174 |
+| 360d | 2025-11-29 | 28 | 204 | 267 | 164 | 111 | 308 |
+| last720d | 2024-12-04 | 36 | 293 | 320 | 416 | 145 | 493 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [nginx-1.31.9.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.tar.gz) | 1.3 MiB | `native/unknown` |
-| [nginx-1.31.9.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.tar.gz.asc) | 898 B | `other` |
-| [nginx-1.31.9.zip](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.zip) | 2.7 MiB | `other` |
-| [nginx-1.31.9.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.9/nginx-1.31.9.zip.asc) | 898 B | `other` |
+| [nginx-1.31.10.tar.gz](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.tar.gz) | 1.3 MiB | `native/unknown` |
+| [nginx-1.31.10.tar.gz.asc](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.tar.gz.asc) | 898 B | `other` |
+| [nginx-1.31.10.zip](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.zip) | 2.7 MiB | `other` |
+| [nginx-1.31.10.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.zip.asc) | 898 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/nginx) 上共有 **1159** 个发行版报告此项目。**36** 个 ✅ 已是最新上游版本，**774** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/nginx) 上共有 **1177** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**822** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -85,13 +75,13 @@ x install nginx
 | Debian 13 | `1.26.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
-| Arch | `1.30.7` | 🪦 legacy |
-| Homebrew | `1.31.9` | ✅ latest |
+| Arch | `1.30.7` | ⚠️ outdated |
+| Homebrew | `1.31.10` | ✅ latest |
 | Fedora rawhide | `1.30.7` | ⚠️ outdated |
-| Nix unstable | `1.30.7` | 🪦 legacy |
+| Nix unstable | `1.30.7` | ⚠️ outdated |
 | Void | `1.30.7` | ⚠️ outdated |
 | Alpine edge | `1.30.7` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.31.8` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.31.9` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -102,4 +92,4 @@ nginx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T08:03:12Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T11:33:22Z._
