@@ -14,15 +14,25 @@ x install nginx
 
 ## Code insight
 
-Total: **220,906** lines of code across **420** files in the top 5 languages.
+Total: **220,912** lines of code across **420** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 175,810 | 6,562 | 59,029 | 268 |
+| C | 175,816 | 6,562 | 59,031 | 268 |
 | Xml | 31,915 | 0 | 1,077 | 2 |
 | CHeader | 10,650 | 1,113 | 5,058 | 142 |
 | VimScript | 1,980 | 4 | 8 | 4 |
 | Perl | 179 | 38 | 64 | 4 |
+
+## OpenSSF Scorecard
+
+Overall score: **7.9 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -33,27 +43,27 @@ Total: **220,906** lines of code across **420** files in the top 5 languages.
 ## Release
 
 - **Latest**: `release-1.30.8` (2026-11-23)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-24
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 33,122 · **Forks**: 8,392 · **Open issues**: 688 · **Contributors**: 129
+- **Stars**: 33,285 · **Forks**: 8,399 · **Open issues**: 691 · **Contributors**: 129
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 334 · **Open PRs**: 331 · **Closed issues**: 530 · **Open issues**: 158 · **Commits**: 8810
+- **Releases**: 38 · **Merged PRs**: 336 · **Open PRs**: 331 · **Closed issues**: 530 · **Open issues**: 161 · **Commits**: 8814
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 4 | 9 | 65 | 13 | 19 | 15 |
-| last60d | 2026-09-25 | 7 | 31 | 115 | 25 | 25 | 45 |
-| 90d | 2026-08-26 | 10 | 49 | 146 | 35 | 43 | 84 |
-| last180d | 2026-05-28 | 15 | 107 | 217 | 86 | 71 | 174 |
-| 360d | 2025-11-29 | 28 | 204 | 267 | 164 | 111 | 308 |
-| last720d | 2024-12-04 | 36 | 293 | 320 | 416 | 145 | 493 |
+| 30d | 2026-10-26 | 4 | 10 | 64 | 13 | 21 | 16 |
+| last60d | 2026-09-26 | 7 | 33 | 115 | 25 | 28 | 49 |
+| 90d | 2026-08-27 | 10 | 51 | 144 | 35 | 46 | 88 |
+| last180d | 2026-05-29 | 15 | 109 | 217 | 86 | 74 | 178 |
+| 360d | 2025-11-30 | 28 | 206 | 267 | 164 | 114 | 312 |
+| last720d | 2024-12-05 | 36 | 295 | 320 | 415 | 148 | 497 |
 
 ## Release assets
 
@@ -64,25 +74,6 @@ Total: **220,906** lines of code across **420** files in the top 5 languages.
 | [nginx-1.31.10.zip](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.zip) | 2.7 MiB | `other` |
 | [nginx-1.31.10.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.zip.asc) | 898 B | `other` |
 
-## Distribution status
-
-Reported by **1177** distros on [repology.org](https://repology.org/project/nginx). **19** are ✅ on the latest upstream release, **822** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.30.6` | ⚠️ outdated |
-| Debian 14 | `1.30.6` | ⚠️ outdated |
-| Debian 13 | `1.26.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
-| Arch | `1.30.7` | ⚠️ outdated |
-| Homebrew | `1.31.10` | ✅ latest |
-| Fedora rawhide | `1.30.7` | ⚠️ outdated |
-| Nix unstable | `1.30.7` | ⚠️ outdated |
-| Void | `1.30.7` | ⚠️ outdated |
-| Alpine edge | `1.30.7` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.31.9` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `nginx` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -92,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:33:21Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:04:43Z._
