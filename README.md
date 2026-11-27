@@ -14,11 +14,11 @@ x install nginx
 
 ## Code insight
 
-Total: **221,081** lines of code across **420** files in the top 5 languages.
+Total: **221,087** lines of code across **420** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 175,985 | 6,562 | 59,064 | 268 |
+| C | 175,991 | 6,562 | 59,067 | 268 |
 | Xml | 31,915 | 0 | 1,077 | 2 |
 | CHeader | 10,650 | 1,113 | 5,058 | 142 |
 | VimScript | 1,980 | 4 | 8 | 4 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `release-1.30.8` (2026-11-23)
-- **Last commit**: 2026-11-25
+- **Last commit**: 2026-11-26
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 33,430 · **Forks**: 8,410 · **Open issues**: 692 · **Contributors**: 131
+- **Stars**: 33,574 · **Forks**: 8,441 · **Open issues**: 693 · **Contributors**: 132
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 341 · **Open PRs**: 335 · **Closed issues**: 533 · **Open issues**: 159 · **Commits**: 8821
+- **Releases**: 38 · **Merged PRs**: 342 · **Open PRs**: 338 · **Closed issues**: 535 · **Open issues**: 158 · **Commits**: 8822
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 4 | 11 | 71 | 13 | 21 | 20 |
-| last60d | 2026-09-27 | 7 | 37 | 123 | 24 | 28 | 55 |
-| 90d | 2026-08-28 | 10 | 54 | 148 | 35 | 46 | 94 |
-| last180d | 2026-05-30 | 15 | 114 | 219 | 87 | 73 | 185 |
-| 360d | 2025-12-01 | 28 | 211 | 272 | 166 | 112 | 319 |
-| last720d | 2024-12-06 | 36 | 300 | 324 | 418 | 146 | 504 |
+| 30d | 2026-10-28 | 4 | 11 | 72 | 14 | 20 | 21 |
+| last60d | 2026-09-28 | 7 | 37 | 125 | 25 | 26 | 56 |
+| 90d | 2026-08-29 | 10 | 55 | 151 | 37 | 44 | 95 |
+| last180d | 2026-05-31 | 15 | 115 | 221 | 87 | 72 | 186 |
+| 360d | 2025-12-02 | 28 | 211 | 275 | 168 | 111 | 320 |
+| last720d | 2024-12-07 | 36 | 301 | 326 | 420 | 145 | 505 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for nginx lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:49:58Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:57:44Z._
