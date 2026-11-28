@@ -14,11 +14,11 @@ x install nginx
 
 ## 代码洞察
 
-合计: **221,087** 行代码（覆盖前 5 种语言、共 **420** 个文件）。
+合计: **221,106** 行代码（覆盖前 5 种语言、共 **420** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 175,991 | 6,562 | 59,067 | 268 |
+| C | 176,010 | 6,574 | 59,072 | 268 |
 | Xml | 31,915 | 0 | 1,077 | 2 |
 | CHeader | 10,650 | 1,113 | 5,058 | 142 |
 | VimScript | 1,980 | 4 | 8 | 4 |
@@ -43,27 +43,27 @@ x install nginx
 ## 发布
 
 - **最新版本**: `release-1.30.8` (2026-11-23)
-- **最近提交**: 2026-11-26
+- **最近提交**: 2026-11-27
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 33,574 · **Fork**: 8,441 · **开放 issue**: 693 · **贡献者**: 132
+- **Star**: 33,702 · **Fork**: 8,487 · **开放 issue**: 693 · **贡献者**: 132
 
 ## 累计统计
 
-- **发布数**: 38 · **已合并 PR**: 342 · **开放 PR**: 338 · **已关闭 issue**: 535 · **开放 issue**: 158 · **提交数**: 8822
+- **发布数**: 38 · **已合并 PR**: 346 · **开放 PR**: 339 · **已关闭 issue**: 535 · **开放 issue**: 158 · **提交数**: 8827
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 4 | 11 | 72 | 14 | 20 | 21 |
-| last60d | 2026-09-28 | 7 | 37 | 125 | 25 | 26 | 56 |
-| 90d | 2026-08-29 | 10 | 55 | 151 | 37 | 44 | 95 |
-| last180d | 2026-05-31 | 15 | 115 | 221 | 87 | 72 | 186 |
-| 360d | 2025-12-02 | 28 | 211 | 275 | 168 | 111 | 320 |
-| last720d | 2024-12-07 | 36 | 301 | 326 | 420 | 145 | 505 |
+| 30d | 2026-10-29 | 4 | 12 | 76 | 13 | 20 | 23 |
+| last60d | 2026-09-29 | 7 | 37 | 123 | 25 | 26 | 60 |
+| 90d | 2026-08-30 | 10 | 58 | 153 | 37 | 44 | 99 |
+| last180d | 2026-06-01 | 15 | 119 | 222 | 86 | 72 | 191 |
+| 360d | 2025-12-03 | 28 | 215 | 275 | 168 | 110 | 325 |
+| last720d | 2024-12-08 | 36 | 305 | 327 | 420 | 145 | 510 |
 
 ## Release 资产
 
@@ -74,6 +74,25 @@ x install nginx
 | [nginx-1.31.10.zip](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.zip) | 2.7 MiB | `other` |
 | [nginx-1.31.10.zip.asc](https://github.com/nginx/nginx/releases/download/release-1.31.10/nginx-1.31.10.zip.asc) | 898 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/nginx) 上共有 **1161** 个发行版报告此项目。**34** 个 ✅ 已是最新上游版本，**781** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.30.6` | ⚠️ outdated |
+| Debian 14 | `1.30.6` | ⚠️ outdated |
+| Debian 13 | `1.26.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.28.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.24.0` | ⚠️ outdated |
+| Arch | `1.30.8` | 🪦 legacy |
+| Homebrew | `1.31.10` | ✅ latest |
+| Fedora rawhide | `1.30.8` | ⚠️ outdated |
+| Nix unstable | `1.30.7` | ⚠️ outdated |
+| Void | `1.30.7` | ⚠️ outdated |
+| Alpine edge | `1.30.8` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.31.9` | ⚠️ outdated |
+
 ## 改进这些数据
 
 nginx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `nginx` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -83,4 +102,4 @@ nginx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T08:57:45Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T08:21:46Z._
